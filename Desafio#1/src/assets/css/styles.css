@@ -1,0 +1,17 @@
+:root {
+    --dark-10: #1A202C;
+    --dark-20: #717171;
+    --dark-30: #F3F5F7;
+    --dark-40: #FFFFFF;
+    --purple: #574AE8;
+    --blue: #3EA1DB;
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.margem {
+    padding: 50px 20px;
+}
+
+header {
+    background-image: var(--linear);
+}
