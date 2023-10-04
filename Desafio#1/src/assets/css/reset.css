@@ -13,4 +13,5 @@ a {
 body {
     font-family: 'Lexend Deca', sans-serif;
     -webkit-font-smoothing: antialiased !important; /*deixa as fontes com a resolução um pouco melhor*/
+    background-color: #F3F5F7;
   }

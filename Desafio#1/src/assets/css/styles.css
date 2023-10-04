@@ -8,10 +8,104 @@
     --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 }
 
-.margem {
+header {
+    background-image: var(--linear);
     padding: 50px 20px;
 }
 
-header {
-    background-image: var(--linear);
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+header .logo p {
+    font-size: 18px;
+    color: var(--dark-40);
+    line-height: 22.5px;
+}
+
+header #pesquisa {
+    background: url('../img/search.svg') no-repeat left;
+    background-position-x: 10px;
+    background-size: 22px;
+    background-color: #FFFFFF33;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+header ::-webkit-input-placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--dark-40);
+    opacity: 50%;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.container {
+    background-color: var(--dark-40);
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+
+.container .data {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.container .data p, 
+.container .conteudo .subtitulo {
+    color: var(--dark-20);
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.container .data img {
+    width: 20px;
+    height: 17px;
+}
+
+.container .conteudo .titulo {
+    font-size: 19px;
+    line-height: 22.5px;
+    padding-bottom: 10px;
+}
+
+/* ------------ RESPONSIVO ------------ */
+
+@media screen and (min-width: 768px) and (max-width: 1219px) {
+    header {
+        padding: 50px 15%;
+    }
+
+    .container {
+        margin: 0 15% 20px 15%;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    header {
+        padding: 50px 20%;
+    }
+
+    .container {
+        margin: 0 20% 20px 20%;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    header {
+        padding: 50px 30%;
+    }
+
+    .container {
+        margin: 0 30% 20px 30%;
+    }
 }
