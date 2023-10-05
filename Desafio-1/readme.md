@@ -18,5 +18,4 @@
 
 ### • Resultado: 
 
-
-
+<img src="./src/assets/img/resultado_desafio1.gif">
