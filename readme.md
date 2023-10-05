@@ -8,16 +8,37 @@
 
 <hr>
 
-### Desafio #1 - Blog Codelândia
+<details>
+<summary>
 
-• [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-1/)
+### Desafio #1 - Blog Codelândia 
 
-• [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-1)
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-1/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-1)
+
+<img src="./Desafio-1/src/assets/img/resultado_desafio1.gif">
+
+</details>
 
 <br>
 
+<details>
+
+<summary>
+
 ### Desafio #2 - Jordan Shoes
 
-• [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-2/)
+</summary>
 
-• [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-2)
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-2/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-2)
+
+<img src="./Desafio-2/assets/img/resultado_desafio2.gif">
+
+</details>
+
+<br>
