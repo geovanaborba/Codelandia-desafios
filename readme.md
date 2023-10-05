@@ -13,3 +13,11 @@
 • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-1/)
 
 • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-1)
+
+<br>
+
+### Desafio #2 - Jordan Shoes
+
+• [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-2/)
+
+• [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-2)
