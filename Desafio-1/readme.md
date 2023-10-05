@@ -2,14 +2,19 @@
 
 ### • [Link do desafio no Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=0-1&mode=design) 
 
-### • Deploy 
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-1/) 
 
 <br>
 
-<!-- ### Alterações após finalizar:
+### Alterações após finalizar o layout proposto:
 
-* adicionado dark mode
-* efeito na imagem de coração ao clicar -->
+* Adicionado botão para mudança de tema (dark/light mode)
+
+* Efeito de preenchimento/hover nos corações ao clicar
+
+* Criado footer para exibir créditos
+
+* Aplicado animações nos cards de notícias com [Scroll Reveal](https://scrollrevealjs.org/guide/hello-world.html)
 
 ### • Resultado: 
 

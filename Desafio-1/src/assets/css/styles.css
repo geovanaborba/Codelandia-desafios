@@ -45,13 +45,50 @@ header ::-webkit-input-placeholder {
 }
 
 main {
-    margin-top: 50px;
+    margin: 50px 0 120px 0;
+}
+
+main .tema {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 20px 0;
+}
+
+main .tema .light {
+    width: 20px;
+    filter: invert(86%) sepia(97%) saturate(0%) hue-rotate(25deg) brightness(105%) contrast(104%);
+}
+
+.tema button {
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    background-image: var(--linear);
+    color: var(--dark-40);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tema button img {
+    margin-left: 5px;
+}
+
+.dark {
+    background: linear-gradient(-236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark button {
+    background-image: linear-gradient(90deg, rgba(195, 139, 34, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
 
 .container {
     background-color: var(--dark-40);
     margin: 0 20px 20px 20px;
     padding: 20px;
+    box-shadow: 0px 0px 10px 0px #13131F0D;
+    border-radius: 5px;
 }
 
 .container .data {
@@ -60,22 +97,65 @@ main {
     padding-bottom: 20px;
 }
 
-.container .data p, 
+.container .data p,
 .container .conteudo .subtitulo {
     color: var(--dark-20);
     font-size: 14px;
     line-height: 26px;
 }
 
-.container .data img {
-    width: 20px;
-    height: 17px;
+label:hover {
+    cursor: pointer;
+    scale: 1.1;
+} 
+
+#coracao1,
+#coracao2,
+#coracao3,
+#coracao4 {
+    display: none;
+}
+
+#coracao1:checked+label>svg,
+#coracao2:checked+label>svg,
+#coracao3:checked+label>svg,
+#coracao4:checked+label>svg {
+    animation: preencher;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes preencher {
+    0% {
+        fill: transparent;
+    }
+
+    100% {
+        fill: var(--purple);
+    }
 }
 
 .container .conteudo .titulo {
     font-size: 19px;
     line-height: 22.5px;
     padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, #574AE8 0%, #3EA1DB 100%);
+    color: var(--dark-40);
+}
+
+footer a {
+    color: var(--blue);
+}
+
+footer a:hover {
+    color: var(--dark-30);
 }
 
 /* ------------ RESPONSIVO ------------ */
@@ -85,8 +165,14 @@ main {
         padding: 50px 15%;
     }
 
+    main .tema,
+    main .tema,
     .container {
         margin: 0 15% 20px 15%;
+    }
+
+    main .tema {
+        padding: 0;
     }
 }
 
@@ -95,8 +181,14 @@ main {
         padding: 50px 20%;
     }
 
+    main .tema,
+    main .tema,
     .container {
         margin: 0 20% 20px 20%;
+    }
+
+    main .tema {
+        padding: 0;
     }
 }
 
@@ -105,6 +197,8 @@ main {
         padding: 50px 30%;
     }
 
+    main .tema,
+    main .tema,
     .container {
         margin: 0 30% 20px 30%;
     }

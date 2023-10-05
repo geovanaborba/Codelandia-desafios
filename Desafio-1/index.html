@@ -28,10 +28,22 @@
     </header>
 
     <main>
+        <div class="tema">
+            <button onclick="mudaTema()">Mudar tema
+                <img class="light" src="./src/assets/img/light.svg" alt="ícone de luz">
+            </button>
+        </div>
+
         <div class="container">
             <div class="data">
                 <p>02 de jul, 2021</p>
-                <img src="./src/assets/img/heart.svg" alt="Favoritar">
+                <input type="checkbox" id="coracao1">
+                <label for="coracao1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#574AE8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </label>
             </div>
             <div class="conteudo">
                 <p class="titulo">
@@ -47,7 +59,13 @@
         <div class="container">
             <div class="data">
                 <p>02 de jul, 2021</p>
-                <img src="./src/assets/img/heart.svg" alt="Favoritar">
+                <input type="checkbox" id="coracao2">
+                <label for="coracao2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#574AE8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </label>
             </div>
             <div class="conteudo">
                 <p class="titulo">
@@ -67,7 +85,13 @@
         <div class="container">
             <div class="data">
                 <p>02 de jul, 2021</p>
-                <img src="./src/assets/img/heart.svg" alt="Favoritar">
+                <input type="checkbox" id="coracao3">
+                <label for="coracao3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#574AE8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </label>
             </div>
             <div class="conteudo">
                 <p class="titulo">
@@ -82,18 +106,48 @@
         <div class="container">
             <div class="data">
                 <p>02 de jul, 2021</p>
-                <img src="./src/assets/img/heart.svg" alt="Favoritar">
+                <input type="checkbox" id="coracao4">
+                <label for="coracao4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#574AE8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                </label>
             </div>
             <div class="conteudo">
                 <p class="titulo">
                     John McAfee, criador do antivírus McAfee, morre
                 </p>
                 <p class="subtitulo">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus tincidunt fermentum eu at sem. Curabitur lacus libero.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit lectus libero, id efficitur
+                    arcu viverra ac. Etiam sed sagittis velit, vitae convallis turpis. Praesent in purus non tellus
+                    tincidunt fermentum eu at sem. Curabitur lacus libero.
                 </p>
             </div>
         </div>
     </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/geovanaborba/">Geovana Borba</a> &copy; 2023</p>
+        <p>Desafio #1 da comunidade no discord <a href="https://discord.gg/79qyJwdsGk">Codelândia</a></p>
+        <p>Layout criado por <a href="https://www.linkedin.com/in/iuricode/?originalSubdomain=br">Iuri Silva
+                (@iuricode)</a></p>
+    </footer>
+
+    <script src="./src/assets/js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'left',
+            distance: '50px',
+            scale: 0.85,
+            duration: 3000,
+            reset: false
+        });
+        ScrollReveal().reveal('.container', { delay: 200 });
+    </script>
+
 </body>
 
 </html>
