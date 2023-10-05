@@ -1,0 +1,95 @@
+:root {
+    --dark-10: #181818;
+    --dark-20: #474747;
+    --dark-30: #EBE9EA;
+    --dark-40: #F9F9F9;
+    --brand-color: #00AEFF;
+}
+
+container {
+    text-align: center;
+}
+
+header .top p {
+    background-color: var(--brand-color);
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+header .top h3 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header .header-img {
+    position: relative;
+    background: url('../img/wallpaper.jpeg') no-repeat center/cover;
+    filter: brightness(50%);
+    height: 35vh;
+}
+
+header .top-img {
+    position: absolute;
+    text-align: left;
+    color: var(--dark-40);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 240px;
+    margin-left: 20px;
+}
+
+header .top-img h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header .top-img p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.highlights {
+    padding: 60px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.highlights h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.highlights p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding-top: 20px;
+}
+
+.container-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-imgs img {
+    background-color: var(--dark-30);
+    min-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 20px 30px 20px;
+    padding: 60px;
+}
+
+footer {
+    background-color: var(--dark-10);
+    color: var(--dark-40);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
