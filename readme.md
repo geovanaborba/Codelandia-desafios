@@ -4,7 +4,7 @@
 
 ♥ Uma vez por mês é apresentado um desafio de frontend para que a comunidade possa praticar. São disponibilizados o design através do Figma, imagens e algumas dicas para melhor desenvolvimento. Cabe ao desafiado, apenas replicar o layout apresentado e/ou melhorá-lo sozinho.
 
-*Todos os desafios estão em suas respectivas pastas, com suas devidas descrições no readMe e hospedados no GitHub Pages.*
+*Todos os desafios estão em suas respectivas pastas, com suas devidas descrições no readMe e hospedados no GitHub Pages. Acesse-os mais facilmente com os links abaixo:*
 
 <hr>
 
@@ -22,8 +22,6 @@
 <img src="./Desafio-1/src/assets/img/resultado_desafio1.gif">
 
 </details>
-
-<br>
 
 <details>
 

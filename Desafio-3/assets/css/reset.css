@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F9F9F9;
+}
+
+
+button,
+input {
+    border: 0;
+    outline: 0;
+}
+
+button:focus,
+input:focus {
+    border: 0;
+    padding-left: 15px;
+}

@@ -1,0 +1,233 @@
+:root {
+    --dark-10: #2A2A2A;
+    --dark-20: #555555;
+    --dark-30: #F9F9F9;
+    --dark-40: #FFFFFF;
+    --brand-color: #6C63FF;
+    --brand-color-light: #D7D4FF;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: var(--brand-color-light);
+    padding: 55px 20px 0 20px;
+}
+
+header .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47px;
+}
+
+header .text p {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--dark-20);
+}
+
+header .text button {
+    font-size: 16px;
+    color: var(--dark-40);
+    font-weight: 700;
+    width: 155px;
+    padding: 13px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--brand-color);
+    margin-top: 10px;
+}
+
+header .text button:hover,
+input#button:hover  {
+    background: linear-gradient(90deg, rgb(16, 0, 36) 0%, rgba(9, 9, 121, 1) 35%, rgb(162, 0, 255) 100%);
+    cursor: pointer;
+}
+
+header img {
+    padding: 80px 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header img:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 80px 20px;
+}
+
+.card {
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    height: 423px;
+    width: 375px;
+    margin: 20px 0;
+}
+
+.card .rectangle {
+    height: 50%;
+}
+
+.red {
+    background-color: #FF6363;
+}
+
+.aqua {
+    background-color: #63ECFF;
+}
+
+.pink {
+    background-color: #F363FF;
+}
+
+.green {
+    background-color: #63FF73;
+}
+
+.yellow {
+    background-color: #FFDD63;
+}
+
+.purple {
+    background-color: #6663FF;
+}
+
+.card .title-card {
+    font-size: 24px;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.card p {
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--dark-20);
+}
+
+.form {
+    background-color: var(--brand-color-light);
+    text-align: center;
+}
+
+.form h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 80px 0 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    width: 374px;
+}
+
+:-ms-input-placeholder {
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+input#message {
+    height: 150px;
+}
+
+input#message::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+input#button {
+    background-color: var(--brand-color);
+    color: var(--dark-40);
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: var(--dark-10);
+    color: var(--dark-40);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+    gap: 60px;
+    font-size: 16px;
+}
+
+footer .rights {
+    gap: 20px;
+}
+
+footer .rights svg {
+    fill: var(--dark-40);
+    margin: 12px 10px 0 0;
+}
+
+footer a {
+    color: var(--brand-color);
+    opacity: 0.8;
+}
+
+footer a:hover {
+    color: var(--brand-color-light);
+    opacity: 0.5;
+}
+
+footer .credits .discord {
+    padding-bottom: 10px;
+}
