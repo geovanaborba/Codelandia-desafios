@@ -16,7 +16,7 @@
 
 ### • Resultado: 
 
-<!-- <img src="./assets/img/resultado_desafio2.gif"> -->
+<img src="./assets/img/resultado_desafio3.gif">
 
 <br><br>
 
