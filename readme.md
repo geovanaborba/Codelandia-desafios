@@ -39,4 +39,18 @@
 
 </details>
 
-<br>
+<details>
+
+<summary>
+
+### Desafio #3 - One Page
+
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-3/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-3)
+
+<img src="./Desafio-3/assets/img/resultado_desafio3.gif">
+
+</details>
