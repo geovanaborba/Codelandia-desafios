@@ -8,11 +8,28 @@
 
 ### Alterações após finalizar o layout proposto:
 
+* Adicionado botão para dark mode
 
+* Input radio personalizado
 
-### • Resultado: 
+* Efeitos de cores nos botões e links através do :hover para os dois temas
+
+* Required aplicado aos inputs
+
+* Animação de máquina de escrever ao título principal usando CSS
+
+### Resultado: 
 
 <img src="./assets/img/resultado_desafio4.gif">
+
+
+### Tutoriais utilizados como referência:  
+
+• [Acervo Lima - Efeito máquina de escrever](https://acervolima.com/como-criar-animacao-de-maquina-de-escrever-usando-html-e-css/)
+
+• [Blog Soares Dev - Radio button personalizado com CSS](https://blog.soaresdev.com/radio-button-personalizado-com-css/)
+
+• [Canal Jovem Programador - Alternar tema com CSS e JS](https://www.youtube.com/watch?v=SBq-kXXn1PQ&list=PLKEvIBJ0GJUUp3NQ9BPSrGisHaFmEL4u9&index=15&t=1s)
 
 <br><br>
 

@@ -51,6 +51,13 @@ container {
     color: var(--dark-30);
 }
 
+.dark .btn-login:hover {
+    border: 2px solid #5ac304;
+    box-shadow: #5ac304 0px 0px 12px 1px inset,
+        #5ac304 0px 0px 12px 1px;
+    background: linear-gradient(0deg, #1a202c 27.26%, #1a202c 96.03%);
+}
+
 .dark .btn-google {
     background: linear-gradient(90deg, #283749 27.26%, #2b4769 96.03%);
 }
@@ -129,7 +136,29 @@ container {
 
 .col-right .welcome h2 {
     font-size: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(23) alternate,
+        blink 800ms steps(23) normal;
+    border-right: 1px solid #d9d9d9;
 }
+
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: #d9d9d9;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
 
 .col-right form {
     display: flex;
@@ -231,10 +260,13 @@ input::placeholder {
 
 .col-right form .btn-login {
     background-color: var(--brand-color-green);
+    border: 2px solid var(--brand-color-green);
 }
 
 .col-right form .btn-login:hover {
-    background-color: #5ac304;
+    border: 2px solid #5ac304;
+    color: #5ac304;
+    background-color: var(--dark-30);
 }
 
 .col-right form .btn-google {
