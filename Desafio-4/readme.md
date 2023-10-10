@@ -23,7 +23,7 @@
 <img src="./assets/img/resultado_desafio4.gif">
 
 
-### Tutoriais utilizados como referência:  
+### Tutoriais de referência:  
 
 • [Acervo Lima - Efeito máquina de escrever](https://acervolima.com/como-criar-animacao-de-maquina-de-escrever-usando-html-e-css/)
 
@@ -31,7 +31,7 @@
 
 • [Canal Jovem Programador - Alternar tema com CSS e JS](https://www.youtube.com/watch?v=SBq-kXXn1PQ&list=PLKEvIBJ0GJUUp3NQ9BPSrGisHaFmEL4u9&index=15&t=1s)
 
-<br><br>
+<br>
 
 <hr>
 
