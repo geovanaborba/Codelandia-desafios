@@ -129,3 +129,15 @@ input::placeholder {
     position: relative;
     top: 42%;
 }
+
+/* -------- RESPONSIVO -------- */
+
+@media screen and (max-width:768px) {
+    .col-left {
+        display: none
+    }
+
+    .col-right {
+        width: 100vw;
+    }
+}
