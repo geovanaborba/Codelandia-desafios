@@ -18,10 +18,18 @@
 
 <body>
     <container>
-        <div class="col-left">
+        <div class="col-left" id="col-left">
             <img src="./assets/img/image.svg" alt="várias fotos de perfis">
         </div>
-        <div class="col-right">
+        <div class="col-right" id="col-right">
+            <div class="dark-theme">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
             <form action="">
                 <div class="welcome">
                     <h4>Bem vindo de volta</h4>
@@ -45,6 +53,9 @@
             <p class="final">Não tem uma conta? <a href=""> Cadastre-se</a></p>
         </div>
     </container>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5f56dfe06a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
