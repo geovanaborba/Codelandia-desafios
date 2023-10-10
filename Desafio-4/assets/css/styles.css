@@ -1,0 +1,131 @@
+:root {
+    --brand-color-green: #04C35C;
+    --brand-color-blue: #2B6CB0;
+    --dark-10: #1A202C;
+    --dark-20: #F7FAFC;
+    --dark-30: #FFFFFF;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+container {
+    display: flex;
+    height: 100vh;
+}
+
+.col-left {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-20);
+    width: 50vw;
+}
+
+.col-left img {
+    width: 400px;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-30);
+    width: 50vw;
+    height: 100vh;
+}
+
+.col-right .welcome {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.col-right .welcome h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.col-right .welcome h2 {
+    font-size: 26px;
+}
+
+.col-right form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: absolute;
+}
+
+form label {
+    padding: 15px 0 10px 0;
+}
+
+form input {
+    border: 1px solid #E8E8E8;
+    outline: 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-right .remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.col-right .remember .check {
+    display: flex;
+    gap: 10px;
+}
+
+input[type=radio] {
+    cursor: pointer;
+    width: 15px;
+}
+
+input::placeholder {
+    color: var(--dark-10);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.col-right form button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    color: var(--dark-30);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-right form .btn-login {
+    background-color: var(--brand-color-green);
+}
+
+.col-right form .btn-google {
+    background-color: var(--dark-10);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.col-right a {
+    color: var(--brand-color-blue);
+}
+
+.col-right .final {
+    position: relative;
+    top: 42%;
+}
