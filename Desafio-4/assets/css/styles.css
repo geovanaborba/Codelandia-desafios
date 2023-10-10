@@ -157,15 +157,57 @@ form input {
     font-size: 14px;
 }
 
-.col-right .remember .check {
+.col-right .remember {
     display: flex;
-    gap: 10px;
 }
 
-input[type=radio] {
-    cursor: pointer;
-    width: 15px;
+/* ------- INPUT RADIO ------- */
+
+input[type='radio'] {
+    display: none;
 }
+
+.radio-container label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.custom-radio {
+    border: 1px solid #d9d9d9;
+    width: 15px;
+    height: 15px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+
+.custom-radio:hover {
+    cursor: pointer;
+}
+
+.custom-radio,
+span {
+    transition: 0.5s ease;
+}
+
+.custom-radio span {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #d9d9d9;
+    border-radius: 50%;
+}
+
+input[type='radio']:checked+.custom-radio {
+    border-color: var(--brand-color-green);
+}
+
+input[type='radio']:checked+.custom-radio span {
+    background: var(--brand-color-green);
+}
+
+/* ------- END INPUT RADIO ------- */
 
 input::placeholder {
     color: var(--dark-10);
@@ -205,6 +247,7 @@ input::placeholder {
 .col-right form .btn-google:hover {
     background-color: var(--brand-color-blue);
 }
+
 .col-right a {
     color: var(--brand-color-blue);
 }
