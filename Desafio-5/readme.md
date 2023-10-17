@@ -8,11 +8,13 @@
 
 ### Alterações após finalizar o layout proposto:
 
-* 
+* Animação float com CSS aplicada à imagem principal
 
-* 
+* Efeitos :hover e links adicionados aos botões
 
-* 
+* Botão para ativar/desativar música adicionado ao header
+
+* Footer para infos e créditos
 
 ### Resultado: 
 
@@ -22,7 +24,9 @@
 
 ### Tutoriais de referência: 
 
-[Stack Overflow - Como criar formas geométricas usando CSS?](https://pt.stackoverflow.com/questions/100110/como-criar-formas-geom%C3%A9tricas-usando-css)
+• [Stack Overflow - Como criar formas geométricas usando CSS?](https://pt.stackoverflow.com/questions/100110/como-criar-formas-geom%C3%A9tricas-usando-css)
+
+• [YOUTUBE - Sujeito Programador: Criando animação flutuando com CSS](https://www.youtube.com/watch?v=BTQHO-yP-CA)
 
 <br>
 

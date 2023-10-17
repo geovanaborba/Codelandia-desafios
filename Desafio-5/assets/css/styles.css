@@ -15,7 +15,32 @@ header .logo {
 }
 
 header .socials img {
-    padding-left: 20px;
+    margin-left: 20px;
+}
+
+header .socials img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+header .socials button {
+    border: none;
+    background-color: transparent;
+}
+
+header .socials #song-on,
+header .socials #song-off {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 50%;
+    filter: invert(72%) sepia(82%) saturate(2%) hue-rotate(294deg) brightness(102%) contrast(101%);
+}
+
+header .socials #song-off {
+    display: none;
 }
 
 main {
@@ -68,7 +93,9 @@ main .text p {
 
 main .buttons {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin: 70px 5px;
+    gap: 10px;
 }
 
 main .buttons .play,
@@ -81,7 +108,7 @@ main .buttons .trailer {
     outline: none;
     height: 45px;
     width: 225px;
-    margin: 70px 5px;
+
     background-color: var(--brand-color);
     -webkit-transform: skew(-30deg);
     -moz-transform: skew(-30deg);
@@ -94,11 +121,61 @@ main .buttons .trailer {
     gap: 15px;
 }
 
-main .buttons .trailer {
-    display: none;
-}
-
 main .buttons img,
 main .buttons span {
     transform: skew(30deg);
+}
+
+main .buttons .play:hover,
+main .buttons .trailer:hover {
+    cursor: pointer;
+    background: linear-gradient(154.76deg, #628E75 3%, #1A4855 84.12%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 80px 25px 40px 25px;
+    gap: 60px;
+    border-radius: 20px;
+}
+
+footer .rights img {
+    width: 100px;
+}
+
+footer .p-rights {
+    font-size: 12px;
+}
+
+footer .credits span,
+footer .layout span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer .credits .layout {
+    margin-top: 60px;
+}
+
+footer .credits .dev p,
+footer .credits .layout p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+footer .credits i {
+    font-size: 22px;
+    padding: 12px 8px;
+}
+
+footer a {
+    color: var(--brand-color);
+}
+
+footer a:hover {
+    color: var(--dark-10);
+    cursor: pointer;
 }
