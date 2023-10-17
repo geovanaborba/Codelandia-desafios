@@ -1,0 +1,90 @@
+:root {
+    --brand-color: #628E75;
+    --dark-10: #FFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 25px 30px 25px;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header .socials img {
+    padding-left: 20px;
+}
+
+main {
+    margin: 25px;
+}
+
+main .image {
+    display: flex;
+    justify-content: center;
+}
+
+main .image img {
+    width: 300px;
+}
+
+main .text h3,
+main .text h1 {
+    text-transform: uppercase;
+}
+
+main .text h3 {
+    font-size: 18px;
+}
+
+main .text h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 61px;
+    padding: 10px 0 20px 0;
+}
+
+main .text p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+main .buttons {
+    display: flex;
+    align-items: center;
+}
+
+main .buttons .play,
+main .buttons .trailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 225px;
+    margin: 70px 5px;
+    background-color: var(--brand-color);
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+
+    text-transform: uppercase;
+    color: var(--dark-10);
+    font-weight: 500;
+    font-size: 16px;
+    gap: 15px;
+}
+
+main .buttons .trailer {
+    display: none;
+}
+
+main .buttons img,
+main .buttons span {
+    transform: skew(30deg);
+}
