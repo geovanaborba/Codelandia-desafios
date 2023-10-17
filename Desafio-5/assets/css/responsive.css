@@ -1,0 +1,108 @@
+/* ------- RESPONSIVO ------- */
+
+@media screen and (min-width: 768px) {
+
+    header .socials img,
+    header .socials #song-on,
+    header .socials #song-off {
+        width: 24px;
+        height: 24px;
+    }
+
+    main .text h1 {
+        width: 400px;
+    }
+
+    main .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+
+    header {
+        margin: 50px 130px;
+    }
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 120px 130px 60px 130px;
+    }
+
+    main .image img {
+        width: 430px;
+        height: 400px;
+    }
+
+    main .text {
+        width: 445px;
+    }
+
+    main .text h3 {
+        font-size: 20px;
+    }
+
+    main .text h1 {
+        font-size: 68px;
+        line-height: 74px;
+    }
+
+    main .text p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    main .buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 70px 0;
+        gap: 5px;
+    }
+
+    footer {
+        margin: 10px 130px 30px 130px;
+    }
+
+    footer .dev span,
+    footer .layout span {
+        font-size: 14px;
+    }
+
+    footer .dev p,
+    footer .layout p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+
+    header {
+        margin: 50px 15%;
+    }
+
+    main {
+        margin: 120px 15%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main .image img {
+        width: 500px;
+        height: 470px;
+    }
+
+    footer {
+        margin: 30px 15% 10px;
+        padding: 0;
+    }
+}
