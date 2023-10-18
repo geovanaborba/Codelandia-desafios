@@ -21,17 +21,20 @@
     <header>
         <img class="logo" src="./assets/img/logo.svg" alt="logo Studio Ghibli">
         <div class="socials">
-            <a href="https://web.facebook.com/GhibliUSA/?locale=pt_BR&_rdc=1&_rdr" target="_blank"><img src="./assets/img/facebook.svg" alt="facebook"></a>
-            <a href="https://www.instagram.com/ghibliusa/" target="_blank"><img src="./assets/img/instagram.svg" alt="instagram"></a>
-            <a href="https://twitter.com/JP_GHIBLI" target="_blank"><img src="./assets/img/twitter.svg" alt="twitter"></a>
-            <a href="https://www.youtube.com/playlist?list=PLVfHJfXFDXRisXKXlgcRwL0_WBaZ4cPnY" target="_blank"><img src="./assets/img/youtube.svg" alt="youtube"></a>
+            <a href="https://web.facebook.com/GhibliUSA/?locale=pt_BR&_rdc=1&_rdr" target="_blank"><img
+                    src="./assets/img/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/ghibliusa/" target="_blank"><img src="./assets/img/instagram.svg"
+                    alt="instagram"></a>
+            <a href="https://twitter.com/JP_GHIBLI" target="_blank"><img src="./assets/img/twitter.svg"
+                    alt="twitter"></a>
+            <a href="https://www.youtube.com/playlist?list=PLVfHJfXFDXRisXKXlgcRwL0_WBaZ4cPnY" target="_blank"><img
+                    src="./assets/img/youtube.svg" alt="youtube"></a>
             <button onclick="playAudio()">
                 <img id="song-on" src="./assets/img/volume-high-solid.svg" alt="som ligado">
             </button>
             <button onclick="pauseAudio()">
                 <img id="song-off" src="./assets/img/volume-xmark-solid.svg" alt="som desligado">
             </button>
-
         </div>
     </header>
 
@@ -46,8 +49,11 @@
                 animais.</p>
 
             <div class="buttons">
-                <a href="https://www.netflix.com/br/title/60023642?source=35" target="_blank"><button class="play"><img src="./assets/img/Vector.svg" alt="play"><span>Assistir agora</span></button></a>
-                <a href="https://www.youtube.com/watch?v=SgZI655GgHk" target="_blank"><a href=""></a><button class="trailer"><span>Assista o trailer</span></button></a>
+                <a href="https://www.netflix.com/br/title/60023642?source=35" target="_blank">
+                    <button class="play" id="play"><img
+                            src="./assets/img/Vector.svg" alt="play"><span>Assistir agora</span></button></a>
+                <a href="https://www.youtube.com/watch?v=SgZI655GgHk" target="_blank"><button
+                        class="trailer" id="trailer" onmouseover="changeTrailer()" onmouseout="backTrailer()"><span>Assista o trailer</span></button></a>
             </div>
         </div>
 
@@ -57,7 +63,6 @@
             <source src="./assets/media/Spirited_Away_Itsumo_Nando(Demo_Pian).wav" type="audio/wav">
             Seu navegador não possui suporte ao elemento áudio.
         </audio>
-
     </main>
 
     <footer>
@@ -67,26 +72,27 @@
             <p><a href="https://studioghibli.com.br/">Studio Ghibli Brasil</a></p>
             <p class="p-rights">Todos os direitos reservados &copy;</p>
         </div>
-
-            <div class="dev">
-                <span>Página desenvolvida por</span>
-                <p>Geovana Borba &copy; 2023</p>
-                <a href="https://www.linkedin.com/in/geovanaborba/" target="_blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="https://github.com/geovanaborba" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-            <div class="layout">
-                <span>Desafio #5 Codelândia</span>
-                <br>
-                <p><a href="https://www.linkedin.com/in/iuricode/?originalSubdomain=br" target="_blank">Layout por Iuri Silva</a></p>
-                <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=5854-2&mode=design&t=9Pib9QumTinLU8iy-0"><i class="fa-brands fa-figma"></i></a>
-                <a href="https://discord.gg/79qyJwdsGk" target="_blank"><i class="fa-brands fa-discord"></i></a>
-            </div>
+        <div class="dev">
+            <span>Página desenvolvida por</span>
+            <p>Geovana Borba &copy; 2023</p>
+            <a href="https://www.linkedin.com/in/geovanaborba/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/geovanaborba" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <div class="layout">
+            <span>Desafio #5 Codelândia</span>
+            <br>
+            <p><a href="https://www.linkedin.com/in/iuricode/?originalSubdomain=br" target="_blank">Layout por Iuri
+                    Silva</a></p>
+            <a
+                href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=5854-2&mode=design&t=9Pib9QumTinLU8iy-0"><i
+                    class="fa-brands fa-figma"></i></a>
+            <a href="https://discord.gg/79qyJwdsGk" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        </div>
     </footer>
-
 
     <script src="https://kit.fontawesome.com/5f56dfe06a.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>

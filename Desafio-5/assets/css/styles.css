@@ -98,7 +98,7 @@ main .buttons {
     display: flex;
     flex-direction: column;
     margin: 70px 5px;
-    gap: 10px;
+    gap: 20px;
 }
 
 main .buttons .play,
@@ -112,13 +112,12 @@ main .buttons .trailer {
     height: 45px;
     width: 225px;
 
-    background-color: var(--brand-color);
     -webkit-transform: skew(-30deg);
     -moz-transform: skew(-30deg);
     -o-transform: skew(-30deg);
 
-    text-transform: uppercase;
     color: var(--dark-10);
+    text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     gap: 15px;
@@ -129,10 +128,18 @@ main .buttons span {
     transform: skew(30deg);
 }
 
+main .buttons .play {
+    background-color: var(--brand-color);
+}
+
+main .buttons .trailer {
+    background: transparent;
+    border: 2px solid #628E75;
+}
+
 main .buttons .play:hover,
 main .buttons .trailer:hover {
     cursor: pointer;
-    background: linear-gradient(154.76deg, #628E75 3%, #1A4855 84.12%);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 

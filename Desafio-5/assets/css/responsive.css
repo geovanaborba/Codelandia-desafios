@@ -2,11 +2,23 @@
 
 @media screen and (min-width: 768px) {
 
+    header {
+        margin: 40px 60px;
+    }
+    main {
+        margin: 80px 60px 0 60px;
+    }
+
     header .socials img,
     header .socials #song-on,
     header .socials #song-off {
         width: 24px;
         height: 24px;
+    }
+
+    main .image img {
+        width: 370px;
+        height: 340px;
     }
 
     main .text h1 {
@@ -22,7 +34,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: end;
+        align-items: flex-end;
         padding-top: 100px;
     }
 }
@@ -66,11 +78,11 @@
         display: flex;
         flex-direction: row;
         margin: 70px 0;
-        gap: 5px;
     }
 
     footer {
         margin: 10px 130px 30px 130px;
+        padding-top: 0;
     }
 
     footer .dev span,
@@ -91,7 +103,7 @@
     }
 
     main {
-        margin: 120px 15%;
+        margin: 110px 15%;
         display: flex;
         justify-content: space-between;
     }
@@ -102,7 +114,6 @@
     }
 
     footer {
-        margin: 30px 15% 10px;
-        padding: 0;
+        margin: 0 15% 10px 15%;
     }
 }
