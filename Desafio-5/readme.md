@@ -16,6 +16,8 @@
 
 * Footer para infos e créditos
 
+* Alteração em background dos botões do main, por meio de funções JS (quando um "acende", o outro apaga).
+
 ### Resultado: 
 
 <img src="./assets/img/resultado_desafio5.gif">
@@ -27,6 +29,12 @@
 • [Stack Overflow - Como criar formas geométricas usando CSS?](https://pt.stackoverflow.com/questions/100110/como-criar-formas-geom%C3%A9tricas-usando-css)
 
 • [YOUTUBE - Sujeito Programador: Criando animação flutuando com CSS](https://www.youtube.com/watch?v=BTQHO-yP-CA)
+
+<br>
+
+### Créditos música: 
+
+• [YOUTUBE: Academia de Piano - Spirited Away - Itsumo Nando Demo / Piano](https://www.youtube.com/watch?v=Zu6OK2Tajnc)
 
 <br>
 
