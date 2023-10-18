@@ -70,3 +70,19 @@
 <img src="./Desafio-4/assets/img/resultado_desafio4.gif">
 
 </details>
+
+<details>
+
+<summary>
+
+### Desafio #5 - Studio Ghibli 
+
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-5/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-5)
+
+<img src="./Desafio-5/assets/img/resultado_desafio5.gif">
+
+</details>
