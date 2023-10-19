@@ -1,0 +1,131 @@
+:root {
+    --yellow: #FFA800;
+    --blue: #0072D2;
+    --dark-10: #131318;
+    --dark-20: #FFFFFF;
+}
+
+body {
+    font-family: 'B612', sans-serif;
+    background: url('../img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: brightness(30%);
+    color: #FFFF;
+}
+
+header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 60px 0;
+    font-weight: 700;
+    transition: ease-in 2s;
+}
+
+header h1 {
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 30px;
+}
+
+header h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container-buttons {
+    background-color: #19191F;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100vw;
+}
+
+#more,
+#less {
+    background-color: transparent;
+    border: none;
+    color: var(--dark-20);
+}
+
+#less {
+    display: none;
+}
+
+main .infos-note {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    transition: ease-in-out 2s;
+}
+
+main .infos-note .time {
+    display: flex;
+    gap: 10px;
+}
+
+main .infos-note .stars img {
+    width: 16px;
+}
+
+main .infos {
+    background-color: #19191F;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+    position: relative;
+}
+
+main .infos .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px;
+}
+
+main .buttons .watch,
+main .buttons .trailer {
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-20);
+    border: none;
+    border-radius: 3px;
+}
+
+main .buttons .watch {
+    background-color: var(--blue);
+}
+
+main .buttons .trailer {
+    background-color: transparent;
+    border: 1px solid var(--dark-20);
+}
+
+main .infos hr {
+    width: 311px;
+    margin: 15px 25px;
+    background: #c4c4c4;
+    opacity: 8%;
+}
+
+main .infos .describe {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px 25px 30px 25px;
+}
