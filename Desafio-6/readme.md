@@ -10,7 +10,7 @@
 
 * :hover e links adicionados aos botões
 
-* Botão para subir/descer card de informações no layout mobile (com JavaScript)
+* Botão onclick para subir/descer card de informações no layout mobile (com JavaScript)
 
 * Transition aplicado aos elementos e na mudança de tamanho do botão de trailer ao passar o mouse
 
@@ -26,7 +26,7 @@
 
 ### Tutoriais de referência: 
 
-[YOUTUBE: Canal QuickCodingTuts - Responsive Youtube Video Modal](https://www.youtube.com/watch?v=dd_bfQP7Exs)
+• [YOUTUBE: Canal QuickCodingTuts - Responsive Youtube Video Modal](https://www.youtube.com/watch?v=dd_bfQP7Exs)
 
 <br>
 
