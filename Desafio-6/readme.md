@@ -8,11 +8,15 @@
 
 ### Alterações após finalizar o layout proposto:
 
-* Efeitos :hover e links adicionados aos botões
+* :hover e links adicionados aos botões
 
-* Botão para subir/descer card de informações no layout mobile (JS)
+* Botão para subir/descer card de informações no layout mobile (com JavaScript)
 
-* Transition aplicado aos elementos
+* Transition aplicado aos elementos e na mudança de tamanho do botão de trailer ao passar o mouse
+
+* Modal com vídeo responsivo ao clicar no botão de trailer
+
+* Mudança de layout conforme responsividade (mobile, tablet e desktop)
 
 ### Resultado: 
 
@@ -22,6 +26,7 @@
 
 ### Tutoriais de referência: 
 
+[YOUTUBE: Canal QuickCodingTuts - Responsive Youtube Video Modal](https://www.youtube.com/watch?v=dd_bfQP7Exs)
 
 <br>
 
