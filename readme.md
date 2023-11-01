@@ -86,3 +86,19 @@
 <img src="./Desafio-5/assets/img/resultado_desafio5.gif">
 
 </details>
+
+<details>
+
+<summary>
+
+### Desafio #6 - Loki
+
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-6/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-6)
+
+<img src="./Desafio-6/assets/img/resultado_desafio6.gif">
+
+</details>
