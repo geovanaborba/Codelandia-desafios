@@ -13,4 +13,4 @@ function less() {
     infos.style.display = 'none';
     btnLess.style.display = 'none';
     btnMore.style.display = 'block';
-}
+};

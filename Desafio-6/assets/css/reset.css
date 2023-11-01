@@ -9,3 +9,12 @@
 a {
     text-decoration: none;
 }
+
+body {
+    font-family: 'B612', sans-serif;
+    background: url('../img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: brightness(30%);
+    color: #FFFF;
+}

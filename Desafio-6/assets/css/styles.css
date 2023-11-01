@@ -1,17 +1,9 @@
+@media screen and (max-width: 767px) {
 :root {
     --yellow: #FFA800;
     --blue: #0072D2;
     --dark-10: #131318;
     --dark-20: #FFFFFF;
-}
-
-body {
-    font-family: 'B612', sans-serif;
-    background: url('../img/fundo.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 100vh;
-    backdrop-filter: brightness(30%);
-    color: #FFFF;
 }
 
 header {
@@ -39,6 +31,12 @@ main {
     left: 0;
 }
 
+main .poster {
+    display: none;
+    width: 184px;
+    border-radius: 20px;
+}
+
 .container-buttons {
     background-color: #19191F;
     border-radius: 20px 20px 0 0;
@@ -55,6 +53,7 @@ main {
     background-color: transparent;
     border: none;
     color: var(--dark-20);
+    cursor: pointer;
 }
 
 #less {
@@ -105,6 +104,7 @@ main .buttons .trailer {
     color: var(--dark-20);
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 main .buttons .watch {
@@ -116,7 +116,13 @@ main .buttons .trailer {
     border: 1px solid var(--dark-20);
 }
 
-main .infos hr {
+main .buttons .watch:hover,
+main .buttons .trailer:hover {
+    background-color: var(--yellow);
+    border: none;
+}
+
+main .infos .describe hr {
     width: 311px;
     margin: 15px 25px;
     background: #c4c4c4;
@@ -128,4 +134,5 @@ main .infos .describe {
     font-weight: 400;
     text-align: justify;
     padding: 15px 25px 30px 25px;
+}
 }

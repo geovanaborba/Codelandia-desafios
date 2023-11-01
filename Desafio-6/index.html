@@ -11,20 +11,22 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive-tablet.css">
+    <link rel="stylesheet" href="./assets/css/responsive-desktop.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 
     <title>Loki</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h3>Está disponível agora!</h3>
-            <h1>Loki</h1>
-        </header>
-        <main>
+    <header>
+        <h3>Está disponível agora!</h3>
+        <h1>Loki</h1>
+    </header>
+    <main>
+        <img class="poster" src="./assets/img/capa.png" alt="capa filme Loki">
 
+        <div class="container-describe">
             <div class="infos-note">
                 <div class="time">
                     <i class="fa-regular fa-clock"></i>
@@ -45,19 +47,20 @@
                 <button id="less" onclick="less()"><i class="fa-solid fa-sort-down"></i></button>
             </div>
 
-
             <div class="infos">
                 <div class="buttons">
                     <button class="watch">Assistir agora</button>
                     <button class="trailer">Trailer</button>
                 </div>
-                <hr>
-                <p class="describe">Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu
-                    papel como o Deus do
-                    Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”. </p>
+                <div class="describe">
+                    <hr>
+                    <p>Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu
+                        papel como o Deus do
+                        Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”. </p>
+                </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
 
     <script src="https://kit.fontawesome.com/5f56dfe06a.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
