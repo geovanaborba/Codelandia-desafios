@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) and (max-width:1219px) {
+    .left {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+
+        top: 200;
+    }
+
+    .right img {
+        width: 30%;
+    }
+}
