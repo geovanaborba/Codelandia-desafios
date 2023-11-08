@@ -1,13 +1,44 @@
 @media screen and (min-width: 768px) and (max-width:1219px) {
-    .left {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
 
-        top: 200;
+    header {
+        padding: 40px 60px;
+    }
+
+    .left {
+        top: 240px;
+        left: 60px;
+    }
+
+
+    .left .cards .agent img {
+        width: 120px;
+    }
+
+    .right {
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        right: 20px;
+        bottom: 0;
+        z-index: 2;
     }
 
     .right img {
-        width: 30%;
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width:1550px) {
+    .left {
+        top: 180px;
+        left: 120px;
+    }
+
+    .left .cards .agent img {
+        width: 140px;
+    }
+
+    .right img {
+        width: 70%;
     }
 }
