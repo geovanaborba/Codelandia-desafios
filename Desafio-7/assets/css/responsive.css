@@ -1,3 +1,64 @@
+/* ------- MOBILE ------- */
+
+@media screen and (min-width: 360px) and (max-width:767px) {
+    .bg {
+        position: relative;
+    }
+
+    .bg-black {
+        background-color: var(--dark-10);
+        height: 100vh;
+        clip-path: polygon(100% 0, 0% 100%, 0 0);
+    }
+
+    header {
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 24px;
+    }
+
+    header .valo {
+        width: 40px;
+    }
+
+    header .riot {
+        width: 60px;
+    }
+
+    header .share {
+        width: 24px;
+    }
+
+    .left {
+        position: absolute;
+        z-index: 2;
+        top: 200px;
+        left: 33%;
+        padding-bottom: 100px;
+    }
+
+    .left .logo {
+        display: none;
+    }
+
+    .left .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .left .cards .agent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width:1219px) {
 
     header {
@@ -8,7 +69,6 @@
         top: 240px;
         left: 60px;
     }
-
 
     .left .cards .agent img {
         width: 120px;
