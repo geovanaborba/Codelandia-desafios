@@ -86,21 +86,17 @@
         left: 60px;
     }
 
-    .left .cards .agent img {
-        width: 120px;
-    }
-
     .right {
         position: absolute;
         display: flex;
         justify-content: right;
-        right: 20px;
+        right: 0;
         bottom: 0;
         z-index: 2;
     }
 
     .right img {
-        width: 49%;
+        width: 65%;
     }
 
     .dev {
@@ -112,10 +108,6 @@
     .left {
         top: 180px;
         left: 120px;
-    }
-
-    .left .cards .agent img {
-        width: 140px;
     }
 
     .right img {
