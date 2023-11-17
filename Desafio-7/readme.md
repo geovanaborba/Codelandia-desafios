@@ -16,6 +16,8 @@
 
 * Scale aplicado no logo e sombreamento na imagem à direita por meio de filter: drop-shadow
 
+* Animação float por meio de CSS na imagem à direita (Separei os png's de arma e personagem pelo Photoshop)
+
 * Footer simples com links e crédito
 
 * Responsividade para tablet e mobile
