@@ -8,13 +8,17 @@
 
 ### Alterações após finalizar o layout proposto:
 
-*
+* Aplicado transparência no background da borda das imagens de personagens (Agradeço ao [Rafael Bezerra](https://github.com/rafaelscbezerra) por ter me orientado nessa parte ♥)
 
-*
+* Alteração de cor nos elementos do header ao passar o mouse (utilizado filter, por se tratar de imagens)
 
-*
+* Efeito deslizante dos elementos principais ao abrir a página, por meio de Scroll Reveal JS
 
-*
+* Scale aplicado no logo e sombreamento na imagem à direita por meio de filter: drop-shadow
+
+* Footer simples com links e crédito
+
+* Responsividade para tablet e mobile
 
 ### Resultado: 
 
@@ -24,7 +28,7 @@
 
 ### Tutoriais de referência: 
 
-•
+• [Codepen - Animação de card Desafio 7 by @iuricode](https://codepen.io/iuricode/pen/QWxBQWp)
 
 <br>
 
