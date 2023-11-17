@@ -95,12 +95,13 @@
         z-index: 2;
     }
 
-    .right img {
+    .right .back {
         width: 65%;
     }
 
-    .dev {
-        padding-left: 60px;
+    .right .weapon {
+        right: 250px;
+        bottom: 240px;
     }
 }
 
@@ -110,11 +111,13 @@
         left: 120px;
     }
 
-    .right img {
+    .right .back {
         width: 70%;
     }
 
-    .dev {
-        padding-left: 120px;
+    .right .weapon {
+        right: 260px;
+        bottom: 250px;
     }
+
 }

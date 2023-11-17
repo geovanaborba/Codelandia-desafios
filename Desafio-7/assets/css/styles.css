@@ -121,8 +121,33 @@ header img:hover {
     z-index: 2;
 }
 
-.right img:hover {
+.right .back:hover {
     filter: drop-shadow(8px 8px 4px #1F2326);
+}
+
+.right .weapon {
+    max-width: 34%;
+    max-height: 30%;
+    position: fixed;
+    right: 400px;
+    bottom: 360px;
+    z-index: -1;
+    transform: translateY(0px);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 footer {
