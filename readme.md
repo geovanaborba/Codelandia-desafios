@@ -102,3 +102,19 @@
 <img src="./Desafio-6/assets/img/resultado_desafio6.gif">
 
 </details>
+
+<details>
+
+<summary>
+
+### Desafio #7 - Valorant
+
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-7/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-7)
+
+<img src="./Desafio-7/assets/img/resultado_desafio7.gif">
+
+</details>
