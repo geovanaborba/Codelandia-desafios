@@ -8,6 +8,8 @@
 
 ### Alterações após finalizar o layout proposto:
 
+* API Web Share (compartilhamento nativo) adicionado ao botão 'Compartilhar'
+
 * Aplicado transparência no background da borda das imagens de personagens (Agradeço ao [Rafael Bezerra](https://github.com/rafaelscbezerra) por ter me orientado nessa parte ♥)
 
 * Alteração de cor nos elementos do header ao passar o mouse (utilizado filter, por se tratar de imagens)
@@ -30,7 +32,9 @@
 
 ### Tutoriais de referência: 
 
-• [Codepen - Animação de card Desafio 7 by @iuricode](https://codepen.io/iuricode/pen/QWxBQWp)
+• [Codepen - Animação de card Desafio 7 por @iuricode](https://codepen.io/iuricode/pen/QWxBQWp)
+
+• [Web.Dev - Integrar a IU de compartilhamento do SO usando a API Web Share](https://web.dev/articles/web-share?hl=pt-br)
 
 <br>
 
