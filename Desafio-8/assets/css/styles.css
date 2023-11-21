@@ -3,6 +3,7 @@
     --dark-10: #2F2F2F;
     --dark-20: #EAEAEA;
     --dark-30: #F9F9F9;
+    --dark-40: #FFFFFF;
 }
 
 body {
@@ -28,6 +29,7 @@ nav h2 {
 
 nav .search {
     border: 2px solid var(--dark-20);
+    background-color: var(--dark-40);
     border-radius: 50%;
     padding: 11px;
 }
@@ -40,7 +42,7 @@ nav .btn-login {
     padding: 15px 48px;
     border: 2px solid var(--dark-20);
     border-radius: 100px;
-    background: transparent;
+    background-color: var(--dark-40);
 }
 
 main {
@@ -113,7 +115,7 @@ main .library {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     border: 2px solid var(--dark-20);
-    background-color: var(--dark-30);
+    background-color: var(--dark-40);
     cursor: pointer;
     line-height: 29.05px;
 }
