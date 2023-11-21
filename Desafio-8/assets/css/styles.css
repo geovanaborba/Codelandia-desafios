@@ -163,3 +163,71 @@ section p {
     text-align: left;
     padding-top: 25px;
 }
+
+footer {
+    text-align: center;
+    padding: 80px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+footer figure {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
+
+footer figure .github,
+footer figure .linkedin,
+footer figure .figma,
+footer figure .discord {
+    color: var(--dark-10);
+    padding: 12px 14px;
+    background-color: var(--dark-40);
+    border: 2px solid var(--dark-20);
+    border-radius: 50%;
+    outline: none;
+}
+
+footer figure .github:hover {
+    color: var(--dark-40);
+    border: 2px solid var(--dark-10);
+    background-color: var(--dark-10);
+}
+footer figure .linkedin:hover {
+    color: var(--dark-40);
+    border: 2px solid #0E76AE;
+    background-color: #0E76AE;
+}
+footer figure .figma:hover {
+    color: var(--dark-40);
+    border: 2px solid #faa931;
+    background-color: #faa931;
+}
+footer figure .discord:hover {
+    color: var(--dark-40);
+    border: 2px solid #7289DA;
+    background-color: #7289DA;
+}
+
+footer h3 {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+footer p {
+    color: var(--dark-10);
+    padding-top: 20px;
+}
+
+footer span {
+    color: var(--dark-20);
+    text-shadow: 1px 1px 0 #585858, 1px -1px 0 #585858, -1px 1px 0 #585858, -1px -1px 0 #585858, 1px 0px 0 #585858, 0px 1px 0 #585858, -1px 0px 0 #585858, 0px -1px 0 #585858, 1px 1px 1px rgba(0,0,0,0);
+}
+
+footer span:hover {
+    color: var(--dark-10);
+    text-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
