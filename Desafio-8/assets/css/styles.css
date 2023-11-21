@@ -11,19 +11,19 @@ body {
     background-color: var(--dark-30);
 }
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-nav h2 {
+header h2 {
     font-family: 'Lora', serif;
     font-size: 32px;
 }
 
-.btn-nav {
+nav {
     display: flex;
-    align-items: center;
     gap: 20px;
 }
 
@@ -38,6 +38,7 @@ nav .btn-login {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: 600;
 
     padding: 15px 48px;
     border: 2px solid var(--dark-20);
@@ -68,6 +69,7 @@ main .second {
     padding: 20px 0;
 }
 
+/* --- Posição das imagens --- */
 main .first .brimstone,
 main .second .reyna {
     position: relative;
@@ -84,6 +86,8 @@ main .second .raze {
     position: relative;
     top: 80px;
 }
+/* --- Final da posição das imagens --- */
+
 main .first .text p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -95,9 +99,6 @@ main .first .text h1 {
     font-family: 'Lora', serif;
     max-width: 792px;
     font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    text-align: center;
 }
 
 main .btn-main {
@@ -117,7 +118,6 @@ main .library {
     border: 2px solid var(--dark-20);
     background-color: var(--dark-40);
     cursor: pointer;
-    line-height: 29.05px;
 }
 
 main .create {
