@@ -27,11 +27,37 @@ nav {
     gap: 20px;
 }
 
-nav .search {
+nav .search-box i {
+    font-size: 25px;
+    color: var(--dark-10);
+}
+
+nav .search-box {
+    position: relative;
+    display: flex;
     border: 2px solid var(--dark-20);
     background-color: var(--dark-40);
-    border-radius: 50%;
-    padding: 11px;
+    align-items: center;
+    height: 55px;
+    padding: 12px;
+    border-radius: 40px;
+}
+
+nav .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: var(--dark-10);
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .8s;
+}
+
+nav .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
 }
 
 nav .btn-login {
@@ -86,7 +112,6 @@ main .second .raze {
     position: relative;
     top: 80px;
 }
-
 /* --- Final da posição das imagens --- */
 
 /* --- Início animação --- */
