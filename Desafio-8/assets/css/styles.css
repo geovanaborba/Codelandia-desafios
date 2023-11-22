@@ -89,6 +89,134 @@ main .second .raze {
 
 /* --- Final da posição das imagens --- */
 
+/* --- Início animação --- */
+.bounce {
+    -webkit-animation: bounce 2s both;
+    animation: bounce 2s both;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+/* --- Fim animação --- */
+
 main .first .text p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -194,16 +322,19 @@ footer figure .github:hover {
     border: 2px solid var(--dark-10);
     background-color: var(--dark-10);
 }
+
 footer figure .linkedin:hover {
     color: var(--dark-40);
     border: 2px solid #0E76AE;
     background-color: #0E76AE;
 }
+
 footer figure .figma:hover {
     color: var(--dark-40);
     border: 2px solid #faa931;
     background-color: #faa931;
 }
+
 footer figure .discord:hover {
     color: var(--dark-40);
     border: 2px solid #7289DA;
@@ -222,7 +353,7 @@ footer p {
 
 footer span {
     color: var(--dark-20);
-    text-shadow: 1px 1px 0 #585858, 1px -1px 0 #585858, -1px 1px 0 #585858, -1px -1px 0 #585858, 1px 0px 0 #585858, 0px 1px 0 #585858, -1px 0px 0 #585858, 0px -1px 0 #585858, 1px 1px 1px rgba(0,0,0,0);
+    text-shadow: 1px 1px 0 #585858, 1px -1px 0 #585858, -1px 1px 0 #585858, -1px -1px 0 #585858, 1px 0px 0 #585858, 0px 1px 0 #585858, -1px 0px 0 #585858, 0px -1px 0 #585858, 1px 1px 1px rgba(0, 0, 0, 0);
 }
 
 footer span:hover {
