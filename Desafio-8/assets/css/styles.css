@@ -1,5 +1,6 @@
 :root {
     --brand-color: #6610F2;
+    --bc: #9f10f2;
     --dark-10: #2F2F2F;
     --dark-20: #EAEAEA;
     --dark-30: #F9F9F9;
@@ -29,7 +30,7 @@ nav {
 }
 
 nav .search-box i {
-    font-size: 25px;
+    font-size: 23px;
     color: var(--dark-10);
 }
 
@@ -60,6 +61,56 @@ nav .search-box:hover>.search-txt {
     width: 240px;
     padding: 0 6px;
 }
+
+nav .light {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    padding: 15px;
+    border: 2px solid var(--dark-20);
+    background-color: var(--dark-40);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+nav #btn-light {
+    background: none;
+    border: none;
+}
+
+/* --- Dark Mode --- */
+.dark {
+    background-color: var(--dark-10);
+    color: var(--dark-30);
+}
+
+.dark header h2,
+.dark footer p {
+    color: var(--dark-40);
+}
+
+.dark .light {
+    color: #ffbb56;
+}
+
+.dark footer span {
+    color: var(--bc);
+    text-shadow: none;
+}
+
+.dark footer span:hover {
+    color: var(--dark-30);
+}
+
+.dark figure .github:hover {
+    border: 2px solid var(--dark-30);
+}
+
+.dark article p {
+    color: var(--dark-10);
+}
+/* --- Fim Dark Mode --- */ 
 
 nav .btn-login {
     font-family: 'Inter', sans-serif;
