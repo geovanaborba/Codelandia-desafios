@@ -8,9 +8,17 @@
 
 ### Alterações após finalizar o layout proposto:
 
-* Responsividade
+* Adicionado botão para ativar/desativar tema escuro 
 
+* Barra de pesquisa expansível ao clicar
 
+* Animação CSS ao texto principal e botões
+
+* :hover aplicado aos botões e imagens
+
+* Responsividade 
+
+* Footer simples adicionado com créditos/links
 
 ### Resultado: 
 
@@ -20,7 +28,7 @@
 
 ### Tutoriais de referência: 
 
-
+* [Barra de pesquisa com HTML e CSS | Higor Feijó](https://www.youtube.com/watch?v=33l_zxzPR2g)
 
 <br>
 
