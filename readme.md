@@ -118,3 +118,19 @@
 <img src="./Desafio-7/assets/img/resultado_desafio7.gif">
 
 </details>
+
+<details>
+
+<summary>
+
+### Desafio #8 - CodeMoji
+
+</summary>
+
+### • [Deploy](https://geovanaborba.github.io/Codelandia-desafios/Desafio-8/)
+
+### • [Repositório](https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-8)
+
+<img src="./Desafio-8/assets/img/resultado_desafio8.gif">
+
+</details>
