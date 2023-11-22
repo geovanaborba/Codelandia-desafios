@@ -131,6 +131,10 @@ nav .btn-login:hover {
     transition: ease-in .5s;
 }
 
+nav .btn-login .icon-user {
+    display: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
