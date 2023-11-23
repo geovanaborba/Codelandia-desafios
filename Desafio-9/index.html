@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 
@@ -16,24 +20,36 @@
         <h1>Portfólio</h1>
         <nav>
             <ul>
-                <li>Sobre mim</li>
-                <li>Projetos</li>
-                <li>Serviços</li>
-                <li>Minhas skills</li>
+                <a href="#about">
+                    <li>Sobre mim</li>
+                </a>
+                <a href="#projects">
+                    <li>Projetos</li>
+                </a>
+                <a href="#services">
+                    <li>Serviços</li>
+                </a>
+                <a href="#skills">
+                    <li>Minhas skills</li>
+                </a>
             </ul>
         </nav>
     </header>
 
     <main>
         <div class="describe">
-            <h1>Olá, eu sou a Geovana Borba ♥ </h1>
+            <div id="text"></div>
             <p>Desenvolvedora Front-End</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
             <div class="btn-describe">
                 <button>Download CV</button>
                 <button>Entrar em contato</button>
             </div>
         </div>
-        <img src="" alt="">
+        <img class="photo" src="./assets/img/photo.jpg" alt="">
     </main>
 
     <section id="about">
@@ -127,6 +143,12 @@
         <i class="fa-brands fa-php"></i>
         <i class="fa-brands fa-react"></i>
     </section>
+
+    <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <footer>
+        <p>&copy; Geovana de Avila Borba - 2023</p>
+    </footer>
 
     <script src="https://kit.fontawesome.com/5f56dfe06a.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
