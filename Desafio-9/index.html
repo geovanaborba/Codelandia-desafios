@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -20,7 +20,7 @@
         <h1>Portfólio</h1>
         <nav>
             <ul>
-                <a href="#about">
+                <a href="#about-me">
                     <li>Sobre mim</li>
                 </a>
                 <a href="#projects">
@@ -39,25 +39,37 @@
     <main>
         <div class="describe">
             <div id="text"></div>
-            <p>Desenvolvedora Front-End</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            <p>Desenvolvedora Front-End Jr.</p>
+
+            <ul>
+                <li><i class="fa-regular fa-calendar"></i>
+                    <p>29 anos</p>
+                </li>
+                <li><i class="fa-solid fa-location-dot"></i>
+                    <p>Suzano - SP</p>
+                </li>
+            </ul>
             <div class="btn-describe">
-                <button>Download CV</button>
-                <button>Entrar em contato</button>
+                <button class="btn-download">Download CV</button>
+                <button class="btn-contact">Entrar em contato</button>
             </div>
         </div>
         <img class="photo" src="./assets/img/photo.jpg" alt="">
     </main>
 
-    <section id="about">
-        <h2>Sobre mim</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+    <section id="about-me">
+        <h2 class="red">Um pouco</h2>
+        <h1 class="black">Sobre Mim</h1>
+        <p>Sou apaixonada por Front End e na forma como podemos criar o que queremos. Acredito na importância de
+            trabalhar em equipe e tenho sólida capacidade de colaboração. Trabalhar em conjunto com outras pessoas (e
+            não apenas desenvolvedores) é essencial.</p>
+        <p>Me considero uma pessoa muito dedicada, criativa e pró ativa. Gosto das coisas certas e pré-definidas e dou
+            muito valor à honestidade e respeito.</p>
+        <p>Segundo o site 16Personallities, minha personalidade é a ISTJ e devo confessar que acho que as descrições tem
+            muita precisão haha</p>
+        <p>Em meu tempo livre gosto de jogar online com os amigos ou de sair para algum parque ou local mais tranquilo
+            para comer e conversar. Além disso, adoro livros, principalmente os de gênero fantasia e ficção.
+        </p>
 
         <div class="contacts">
             <div class="ct-container">
@@ -68,7 +80,7 @@
             <div class="ct-container">
                 <i class="fa-regular fa-envelope"></i>
                 <span>E-mail</span>
-                <p>Geovana Borba</p>
+                <p>geovana.borba@gmail.com</p>
             </div>
             <div class="ct-container">
                 <i class="fa-brands fa-github"></i>
@@ -83,65 +95,135 @@
         </div>
     </section>
 
+    <section id="about-studies">
+        <h2 class="red">Um pouco sobre</h2>
+        <h1 class="black">Minha trajetória de estudos</h1>
+        <div class="about-pt1">
+            <img class="img-pt1" src="./assets/img/undraw_programmer_re_owql.svg" alt="">
+            <div>
+                <p>Conheci melhor o mundo da programação durante a pandemia, quando me deparei com uma imersão Dev
+                    disponibilizada pela Alura e desde então tenho estudado por conta e participado de outros eventos.
+                </p>
+                <p>Participar dessas imersões me motivou a procurar por mais. Dessa forma, no primeiro semestre de 2022,
+                    completei o bootcamp Web Carrefour, realizado pela Digital Innovation One (Dio) e em junho de 2023
+                    me formei no curso técnico
+                    de Desenvolvimento de Sistemas da Etec.</p>
+            </div>
+        </div>
+        <div class="about-pt2">
+            <div>
+                <p>Atualmente estou finalizando o curso Full
+                    Stack
+                    JavaScript da escola One Bit Code.</p>
+                <p>Também sou graduada em Marketing e certificada com o "Melhor Projeto UBC (Universidade Braz Cubas)"
+                    elegida
+                    pela empresa chilena de vinhos Concha y Toro em 2014. </p>
+                <p>Em 2018 comecei a fazer trabalhos freelancer com ilustração, mas decidi dar um tempo quando passei a
+                    me dedicar ao desenvolvimento web. Ainda faço alguns trabalhos nas horas vagas.</p>
+            </div>
+            <img class="img-pt2" src="./assets/img/undraw_proud_coder_re_exuy.svg" alt="">
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2 class="red">Certificados e</h2>
+        <h1 class="black">Graduações</h1>
+
+        <div class="ct-container">
+            <div class="ct">
+                <img src="./assets/img/etec.png">
+                <span>Técnico em Desenvolvimento de Sistemas</span>
+            </div>
+
+            <div class="ct">
+                <img src="./assets/img/dio-bc.png">
+                <span>Bootcamp Carrefour Web Developer</span>
+            </div>
+
+            <div class="ct">
+                <img src="./assets/img/obc.png">
+                <span>Full Stack Javascript</span>
+            </div>
+        </div>
+
+        <div class="open">
+            <h3><i class="fa-solid fa-angle-down"></i>Ver todos os certificados</h3>
+                <p>Técnica em Desenvolvimento de Sistemas</p>
+                <p>Tecnólogo em Marketing</p>
+        </div>
+
+    </section>
+
     <section id="projects">
+        <h2 class="red">Alguns dos</h2>
+        <h1 class="black">Meus Projetos</h1>
         <div class="pj-container">
-            <img src="" alt="">
-            <h3>TCC - Projeto ProgQuiz</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
-        </div>
-        <div class="pj-container">
-            <img src="" alt="">
-            <h3>Portfólio Astarte</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
-        </div>
-        <div class="pj-container">
-            <img src="" alt="">
-            <h3>Guia de Casamento</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
-        </div>
-        <div class="pj-container">
-            <img src="" alt="">
-            <h3>Título do projeto</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
-        </div>
-        <div class="pj-container">
-            <img src="" alt="">
-            <h3>Título do projeto</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
-        </div>
-        <div class="pj-container">
-            <img src="" alt="">
-            <h3>Título do projeto</h3>
-            <p>Tecnologias: HTML, CSS e JS.</p>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>TCC - Projeto ProgQuiz</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>Portfólio Astarte</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>Guia de Casamento</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>Título do projeto</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>Título do projeto</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
+            <div class="pj">
+                <img src="" alt="">
+                <h3>Título do projeto</h3>
+                <p>Tecnologias: HTML, CSS e JS.</p>
+            </div>
         </div>
     </section>
 
     <section id="services">
+        <h1 class="black">Serviços</h1>
         <div class="sv-container">
-            <i class="fa-solid fa-code"></i>
-            <p>Criação</p>
-            <p>de sites</p>
-        </div>
+            <div class="sv">
+                <i class="fa-solid fa-code"></i>
+                <p>Criação</p>
+                <p>de sites</p>
+            </div>
 
-        <div class="sv-container">
-            <i class="fa-solid fa-pen"></i>
-            <p>Ilustrações</p>
-            <p>personalizadas</p>
-        </div>
-        <div class="sv-container">
-            <i class="fa-solid fa-mobile-screen"></i>
-            <p>Sites</p>
-            <p>responsivos</p>
+            <div class="sv">
+                <i class="fa-solid fa-pen"></i>
+                <p>Ilustrações</p>
+                <p>personalizadas</p>
+            </div>
+            <div class="sv">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <p>Sites</p>
+                <p>responsivos</p>
+            </div>
         </div>
     </section>
 
     <section id="skills">
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3-alt"></i>
-        <i class="fa-brands fa-square-js"></i>
-        <i class="fa-brands fa-git-alt"></i>
-        <i class="fa-brands fa-php"></i>
-        <i class="fa-brands fa-react"></i>
+        <h2 class="red">Minhas</h2>
+        <h1 class="black">Skills</h1>
+        <div class="sk-container">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <i class="fa-brands fa-php"></i>
+            <i class="fa-brands fa-react"></i>
+        </div>
     </section>
 
     <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>

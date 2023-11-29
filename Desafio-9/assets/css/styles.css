@@ -3,8 +3,281 @@
     --dark-20: #333333;
     --dark-30: #828282;
     --dark-40: #F9F9F9;
+
+    --blue: #1F7CFF;
+    --gray: #575455;
+    --pink: #f91486;
+    --red: #F75C4E;
+}
+
+h2.red {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+    text-align: center;
+}
+
+h1.black {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 0;
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 32px;
+}
+
+section {
+    margin-top: 10em;
 }
 
 body {
-    margin: 45px 15%;
+    margin: 0 15%;
+    color: #575455;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-40);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    position: fixed;
+    top: 0;
+    width: 70%;
+    z-index: 99;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    gap: 8em;
+}
+
+main .describe #text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+main .photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 50px;
+}
+
+main ul {
+    display: flex;
+    gap: 30px;
+}
+
+main ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+main .btn-describe {
+    display: flex;
+    gap: 20px;
+    padding: 35px 0;
+}
+
+main .btn-describe button {
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+main .btn-describe .btn-download {
+    background-color: var(--pink);
+    color: var(--dark-40);
+}
+
+#about-me p {
+    text-align: center;
+}
+
+#about-me .contacts {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#about-me .contacts .ct-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 15px;
+}
+
+#about-me .contacts .ct-container i {
+    font-size: 32px;
+    color: var(--dark-40);
+
+    background-color: #212121;
+    border-radius: 50px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me .contacts .ct-container span {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#about-me .contacts .ct-container p {
+    font-size: 14px;
+}
+
+#about-studies .about-pt1,
+#about-studies .about-pt2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+}
+
+#about-studies .img-pt1 {
+    width: 300px;
+}
+
+#about-studies .img-pt2 {
+    width: 400px;
+}
+
+#certificates .ct-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+}
+
+#certificates .ct {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+#certificates .open {
+    position: relative;
+}
+
+.open h3 {
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    padding: 24px;
+    text-align: center;
+}
+
+.open i {
+    padding-right: 15px;
+}
+  
+.open p {
+    overflow: hidden;
+    opacity: 0;
+    transition: .2s;
+    text-align: center;
+}
+.open.ativa p {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+    text-align: center;
+}
+
+#projects .pj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#projects .pj {
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+    background-color: var(--dark-30);
+}
+
+#services .sv-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#services .sv-container .sv {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px;
+    background-color: #1F7CFF;
+}
+
+#skills .sk-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+#skills .sk-container i {
+    font-size: 80px;
+    color: var(--pink);
+    padding: 40px;
+    background-color: var(--dark-30);
+}
+
+/* BOTÃO VOLTAR AO TOPO */
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#back-to-top:hover {
+    background-color: #1F7CFF;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
