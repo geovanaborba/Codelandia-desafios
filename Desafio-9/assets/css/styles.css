@@ -40,7 +40,7 @@ section {
 
 body {
     margin: 0 15%;
-    color: #575455;
+    color: var(--gray);
     font-family: 'Poppins', sans-serif;
     background-color: var(--dark-40);
 }
@@ -132,6 +132,7 @@ main .btn-describe .btn-download {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px solid var(--dark-40);
     align-items: center;
     padding: 45px 15px;
 }
@@ -157,6 +158,16 @@ main .btn-describe .btn-download {
 
 #about-me .contacts .ct-container p {
     font-size: 14px;
+}
+
+#about-me .contacts .ct-container:hover {
+    border: 2px solid var(--dark-30);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#about-me .contacts .ct-container:hover > i {
+    background-color: #f91486;
 }
 
 #about-studies .about-pt1,
@@ -202,7 +213,7 @@ main .btn-describe .btn-download {
     margin-bottom: 50px;
 }
 
-#about-studies .ct-container {
+#about-studies .cert-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -210,14 +221,20 @@ main .btn-describe .btn-download {
     text-align: center;
 }
 
-#about-studies .ct {
+#about-studies .cert {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 0;
 }
 
-#about-studies .ct span {
+#about-studies .cert:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .5s;
+}
+
+#about-studies .cert span {
     font-size: 14px;
     font-weight: normal;
 }
@@ -253,6 +270,10 @@ main .btn-describe .btn-download {
     text-align: center;
 }
 
+.open .title:hover {
+    background-color: var(--pink);
+}
+
 .open i {
     padding-right: 15px;
 }
@@ -263,7 +284,7 @@ main .btn-describe .btn-download {
     opacity: 0;
     transition: .2s;
     text-align: justify;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .open.ativa ul {
@@ -299,9 +320,78 @@ main .btn-describe .btn-download {
 
 #projects .pj {
     width: 400px;
-    height: 500px;
-    padding: 15px;
-    background-color: var(--dark-30);
+    height: 650px;
+    padding: 20px 15px;
+    background-color: transparent;
+    border: 1px solid #c2c2c2;
+}
+
+#projects .pj img {
+    width: 370px;
+    height: 220px;
+}
+
+#projects .pj .tags {
+    display: flex;
+    gap: 10px;
+}
+
+#projects .pj .tags p {
+    background-color: var(--pink);
+    padding: 1px 10px;
+    border-radius: 50px;
+    color: var(--dark-40);
+    font-size: 14px;
+}
+
+/* --- */
+
+#projects .pj .tags-teste {
+    display: flex;
+    gap: 25px;
+}
+
+#projects .pj .tags-teste p {
+    font-size: 14px;
+}
+
+#projects .pj .tags-teste i {
+    padding-right: 5px;
+}
+
+#projects .pj .tag-tools {
+    display: flex;
+    gap: 10px;
+}
+
+#projects .pj .tag-tools p {
+    background-color: var(--pink);
+    padding: 1px 10px;
+    color: var(--dark-40);
+    border-radius: 50px;
+}
+
+/* --- */
+
+#projects .pj .tags i {
+    padding-right: 5px;
+}
+
+#projects .pj .desc-pj {
+    margin: 30px 0;
+}
+
+#projects .pj span {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#projects .pj .btn-pj {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
 }
 
 #services .sv-container {
