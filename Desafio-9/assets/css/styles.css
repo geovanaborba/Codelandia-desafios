@@ -89,7 +89,7 @@ main .describe p {
 main .photo {
     width: 300px;
     height: 300px;
-    border-radius: 0 50px;
+    border-radius: 0 80px;
 }
 
 main ul {
@@ -128,7 +128,7 @@ main .btn-describe .btn-download {
     margin-top: 50px;
 }
 
-#about-me .contacts .ct-container {
+#about-me .contacts .contacts-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +137,7 @@ main .btn-describe .btn-download {
     padding: 45px 15px;
 }
 
-#about-me .contacts .ct-container i {
+#about-me .contacts .contacts-container i {
     font-size: 32px;
     color: var(--dark-40);
 
@@ -150,23 +150,23 @@ main .btn-describe .btn-download {
     align-items: center;
 }
 
-#about-me .contacts .ct-container span {
+#about-me .contacts .contacts-container span {
     font-size: 18px;
     font-weight: 700;
     padding-top: 20px;
 }
 
-#about-me .contacts .ct-container p {
+#about-me .contacts .contacts-container p {
     font-size: 14px;
 }
 
-#about-me .contacts .ct-container:hover {
+#about-me .contacts .contacts-container:hover {
     border: 2px solid var(--dark-30);
     border-radius: 40px;
     cursor: pointer;
 }
 
-#about-me .contacts .ct-container:hover > i {
+#about-me .contacts .contacts-container:hover > i {
     background-color: #f91486;
 }
 
@@ -213,7 +213,7 @@ main .btn-describe .btn-download {
     margin-bottom: 50px;
 }
 
-#about-studies .cert-container {
+#about-studies .certificates-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -221,20 +221,20 @@ main .btn-describe .btn-download {
     text-align: center;
 }
 
-#about-studies .cert {
+#about-studies .certificate {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 0;
 }
 
-#about-studies .cert:hover {
+#about-studies .certificate:hover {
     transform: scale(1.1);
     cursor: pointer;
     transition: .5s;
 }
 
-#about-studies .cert span {
+#about-studies .certificate span {
     font-size: 14px;
     font-weight: normal;
 }
@@ -259,7 +259,6 @@ main .btn-describe .btn-download {
     margin-top: 60px; */
 
     /* segunda opção */
-
     background-color: var(--blue);
     color: var(--dark-40);
     border-radius: 40px;
@@ -310,83 +309,48 @@ main .btn-describe .btn-download {
     padding-top: 40px;
 }
 
-#projects .pj-container {
+#projects .projects-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
-#projects .pj {
-    width: 400px;
-    height: 650px;
-    padding: 20px 15px;
+#projects .project {
+    width: 550px;
+    height: 750px;
     background-color: transparent;
-    border: 1px solid #c2c2c2;
+    border: 3px solid #c2c2c2;
 }
 
-#projects .pj img {
-    width: 370px;
-    height: 220px;
+#projects .project img {
+    width: 546px;
+    height: 340px;
 }
 
-#projects .pj .tags {
+#projects .projects-title {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#projects .pj .tags p {
-    background-color: var(--pink);
-    padding: 1px 10px;
-    border-radius: 50px;
-    color: var(--dark-40);
+#projects .project .tags {
+    display: flex;
     font-size: 14px;
+    gap: 15px;
 }
 
-/* --- */
-
-#projects .pj .tags-teste {
-    display: flex;
-    gap: 25px;
-}
-
-#projects .pj .tags-teste p {
-    font-size: 14px;
-}
-
-#projects .pj .tags-teste i {
-    padding-right: 5px;
-}
-
-#projects .pj .tag-tools {
-    display: flex;
-    gap: 10px;
-}
-
-#projects .pj .tag-tools p {
-    background-color: var(--pink);
-    padding: 1px 10px;
-    color: var(--dark-40);
-    border-radius: 50px;
-}
-
-/* --- */
-
-#projects .pj .tags i {
-    padding-right: 5px;
-}
-
-#projects .pj .desc-pj {
+#projects .project .describe-project {
     margin: 30px 0;
 }
 
-#projects .pj span {
+#projects .project span {
     font-weight: 600;
     font-size: 15px;
 }
 
-#projects .pj .btn-pj {
+#projects .project .btn-project {
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
@@ -394,13 +358,13 @@ main .btn-describe .btn-download {
     gap: 15px;
 }
 
-#services .sv-container {
+#services .services-container {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-#services .sv-container .sv {
+#services .services-container .services {
     width: 300px;
     height: 400px;
     display: flex;
@@ -410,13 +374,13 @@ main .btn-describe .btn-download {
     background-color: #1F7CFF;
 }
 
-#skills .sk-container {
+#skills .skills-container {
     display: flex;
     justify-content: center;
     gap: 70px;
 }
 
-#skills .sk-container i {
+#skills .skills-container i {
     font-size: 80px;
     color: var(--pink);
     padding: 40px;
@@ -438,5 +402,6 @@ main .btn-describe .btn-download {
 #back-to-top:hover {
     background-color: #1F7CFF;
     color: #fff;
+    cursor: pointer;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
