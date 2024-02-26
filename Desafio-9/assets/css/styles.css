@@ -318,36 +318,40 @@ main .btn-describe .btn-download {
 }
 
 #projects .project {
-    width: 550px;
-    height: 750px;
-    background-color: transparent;
-    border: 3px solid #c2c2c2;
+    width: 400px;
+    height: 580px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 #projects .project img {
-    width: 546px;
-    height: 340px;
+    width: 400px;
+    height: 205px;
+    border-radius: 10px 10px 0 0;
 }
 
 #projects .projects-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#projects .project .tags {
-    display: flex;
-    font-size: 14px;
-    gap: 15px;
+    margin: 5px 15px;
 }
 
 #projects .project .describe-project {
-    margin: 30px 0;
+    margin: 25px 15px;
+    font-size: 14px;
 }
 
-#projects .project span {
+.project .tecno {
     font-weight: 600;
     font-size: 15px;
+    margin-left: 15px;
+}
+
+#projects .project p {
+    margin: 5px 15px;
+    font-size: 14px;
 }
 
 #projects .project .btn-project {
@@ -356,6 +360,46 @@ main .btn-describe .btn-download {
     justify-content: flex-end;
     align-items: flex-end;
     gap: 15px;
+    margin-right: 15px;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+.btn-project i:hover {
+    color: var(--pink);
+}
+
+#projects .project span {
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+[data-tooltip]:hover {
+    color: var(--blue);
+}
+
+[data-tooltip]:after {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    bottom: calc(100% + 10px);
+    content: attr(data-tooltip);
+    width: 150px;
+    background-color: #ddd;
+    border-radius: 15px;
+    color: var(--blue);
+    text-align: center;
+    z-index: 15;
+}
+
+[data-tooltip]:hover:after {
+    display: block;
 }
 
 #services .services-container {

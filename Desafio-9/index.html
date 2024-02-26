@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
 
+    <!--owl css-->
+    <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl/owl.theme.default.min.css">
+
     <title>Portfólio • Geovana Borba</title>
 </head>
 
@@ -214,87 +218,142 @@
         <h1 class="black">Meus Projetos</h1>
         <div class="projects-container">
             <div class="project">
-                <img src="./assets/img/gif_index.gif" alt="">
+                <img src="./assets/img/project1.jpg" alt="Projeto 1">
                 <div class="projects-title">
                     <h3>TCC - Projeto ProgQuiz</h3>
                     <div class="tags">
-                        <i class="fa-solid fa-laptop"></i>
-                        <i class="fa-solid fa-gear"></i></i>
-                        <i class="fa-solid fa-users"></i>
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Em Grupo"><i class="fa-solid fa-users"></i></span>
                     </div>
-                </div>                
-                <p class="describe-project">Projeto onde o usuário pode efetuar cadastro e login para responder quiz com
+                </div>
+                <p class="describe-project">Projeto onde o usuário pode efetuar cadastro e login para responder quiz
+                    com
                     perguntas de programação e competir com outros jogadores através de pontuação e ranking.</p>
-                <span>Tecnologias:</span>
+                <p class="tecno">Tecnologias:</p>
                 <p> PHP, Banco de dados MySQL, CSS, JavaScript, HTML, Amazon AWS</p>
                 <div class="btn-project">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <!-- <span data-tooltip="Repositório"> -->
+                    <a href="https://github.com/geovanaborba/TCC-website--complete_code" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <!-- </span> -->
+                    <!-- <span data-tooltip="Deploy"> -->
+                    <a href="https://geovanaborba.github.io/TCC-website/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- </span> -->
                 </div>
             </div>
             <div class="project">
-                <img src="./assets/img/gif_index.gif" alt="">
-                <h3>Portfólio Astarte</h3>
-                <div class="tag-tools">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
+                <img src="./assets/img/project2.jpg" alt="Projeto 2">
+                <div class="projects-title">
+                    <h3>Portfólio Astarte</h3>
+                    <div class="tags">
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Feito sozinha"><i class="fa-solid fa-user"></i></span>
+                    </div>
                 </div>
-                <p class="describe-project">Página criada para meu portfólio de ilustrações, contendo informações de encomendas e
-                    galeria.</p>
+                <p class="describe-project">Página criada para apresentar meus trabalhos de ilustração quando fiz
+                    encomendas. Site contém galeria para apresentar os trabalhos, além de citar todas as informações
+                    sobre comissões.</p>
+                <p class="tecno">Tecnologias:</p>
+                <p> HTML, CSS, JavaScript, OWL Carousel</p>
                 <div class="btn-project">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="https://github.com/geovanaborba/Portfolio-Astarte" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://geovanaborba.github.io/Portfolio-Astarte/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
             <div class="project">
-                <h3>Guia de casamento</h3>
-                <img src="./assets/img/gif_index.gif" alt="">
-                <div class="tags">
-                    <p><i class="fa-solid fa-laptop"></i>Front-End</p>
-                    <p><i class="fa-solid fa-gears"></i></i>Responsivo</p>
+                <img src="./assets/img/project3.jpg" alt="">
+                <div class="projects-title">
+                    <h3>Site Guia de Casamento</h3>
+                    <div class="tags">
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Feito sozinha"><i class="fa-solid fa-user"></i></span>
+                    </div>
                 </div>
-                <p class="describe-project">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio qui, quas
-                    expedita eum iure quia!</p>
-            </div>
-            <div class="project">
-                <h3>TCC - Projeto ProgQuiz</h3>
-                <img src="./assets/img/gif_index.gif" alt="">
-                <div class="tags">
-                    <p><i class="fa-solid fa-laptop"></i>FullStack</p>
-                    <p><i class="fa-solid fa-chart-simple"></i>Junior</p>
-                </div>
-                <p class="describe-project">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio qui, quas
-                    expedita eum iure quia!</p>
-            </div>
-            <div class="project">
-                <img src="./assets/img/gif_index.gif" alt="">
-                <h3>Portfólio Astarte</h3>
-                <div class="tags-teste">
-                    <p><i class="fa-solid fa-laptop"></i>Front-End</p>
-                    <p><i class="fa-solid fa-mobile-screen"></i>Responsivo</p>
-                </div>
-                <p class="describe-project">Página criada para meu portfólio de ilustrações, contendo informações de encomendas e
-                    galeria.</p>
-                <div class="tag-tools">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                </div>
+                <p class="describe-project">Site em formato "Save the Date", contendo todas as informações
+                    relevantes sobre um casamento fictício, para os convidados acessarem antes do grande dia.</p>
+                <p class="tecno">Tecnologias:</p>
+                <p> HTML, CSS, JavaScript, OWL Carousel, Bootstrap.</p>
                 <div class="btn-project">
-                    <i class="fa-brands fa-github"></i>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="https://github.com/geovanaborba/site-guia-de-Casamento" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://geovanaborba.github.io/site-guia-de-Casamento/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                 </div>
             </div>
             <div class="project">
-                <h3>TCC - Projeto ProgQuiz</h3>
-                <img src="./assets/img/gif_index.gif" alt="">
-                <div class="tags">
-                    <p><i class="fa-solid fa-laptop"></i>FullStack</p>
-                    <p><i class="fa-solid fa-chart-simple"></i>Junior</p>
+                <img src="./assets/img/project4.jpg" alt="">
+                <div class="projects-title">
+                    <h3>DSMovie</h3>
+                    <div class="tags">
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Projeto guiado"><i class="fa-solid fa-graduation-cap"></i></span>
+                    </div>
                 </div>
-                <p class="describe-project">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio qui, quas
-                    expedita eum iure quia!</p>
+                <p class="describe-project">Projeto de avaliação de filmes, criado durante o evento Semana Spring React
+                    da DevSuperior.</p>
+                <p class="tecno">Tecnologias:</p>
+                <p>HTML e CSS</p>
+                <div class="btn-project">
+                    <a href="https://github.com/geovanaborba/Semana-Spring-React-DSMovie" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://geovanaborba.github.io/Semana-Spring-React-DSMovie/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./assets/img/project5.jpg" alt="">
+                <div class="projects-title">
+                    <h3>CodeMoji - Desafio Codelândia</h3>
+                    <div class="tags">
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Layout pronto"><i class="fa-brands fa-figma"></i></span>
+                    </div>
+                </div>
+                <p class="describe-project">Página criada seguindo o layout proposto no Figma, para o desafio de
+                    frontend da comunidade Codelândia no Discord.</p>
+                <p class="tecno">Tecnologias:</p>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="btn-project">
+                    <a href="https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-8" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://geovanaborba.github.io/Codelandia-desafios/Desafio-8/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./assets/img/project6.jpg" alt="">
+                <div class="projects-title">
+                    <h3>Studio Ghibli - Desafio <br> Codelândia</h3>
+                    <div class="tags">
+                        <span data-tooltip="Responsivo"><i class="fa-solid fa-laptop"></i></span>
+                        <span data-tooltip="Layout pronto"><i class="fa-brands fa-figma"></i></span>
+                    </div>
+                </div>
+                <p class="describe-project">Página criada seguindo o layout proposto no Figma, para o desafio de
+                    frontend da comunidade Codelândia no Discord.</p>
+                <p class="tecno">Tecnologias:</p>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="btn-project">
+                    <a href="https://github.com/geovanaborba/Codelandia-desafios/tree/main/Desafio-5" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://geovanaborba.github.io/Codelandia-desafios/Desafio-5/" target="_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -342,6 +401,11 @@
 
     <script src="https://kit.fontawesome.com/5f56dfe06a.js" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
+    <!--owl js-->
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+    <!--js carrossel-->
+    <script src="./assets/js/owl/setup.js"></script>
 </body>
 
 </html>
