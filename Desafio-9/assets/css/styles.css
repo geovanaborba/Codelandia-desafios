@@ -67,18 +67,73 @@ nav ul {
     display: flex;
     gap: 25px;
     font-size: 16px;
+    align-items: center;
 }
+
+nav button.theme {
+    padding: 15px;
+    border: 1px solid var(--dark-30);
+    border-radius: 5px;
+    filter: opacity(0.6);
+    background: url('../img/moon-regular.svg') no-repeat center;
+    background-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+nav button.theme:hover {
+    background-color: #ddd;
+}
+
+/* --- Dark Mode --- */
+.dark {
+    background-color: var(--dark-10);
+    color: var(--dark-30);
+}
+
+.dark header {
+        /* From https://css.glass */
+        border: none;
+        background: rgba(24, 23, 23, 0.514);
+        color: var(--dark-40);
+}
+
+.dark nav ul li {
+    color: var(--dark-40);
+}
+
+.dark nav button.theme {
+    background: url('../img/brilho-do-sol.png') no-repeat center;
+    background-size: 18px;
+    filter: invert(70%);
+}
+
+.dark #text, 
+.dark #about-studies .black-ct,
+.dark .black {
+    color: var(--dark-40);
+}
+
+.dark .certificate img {
+    background-color: var(--dark-40);
+    opacity: .7;
+    border-radius: 20px;
+}
+
+.dark .project {
+    border: .1px solid #353535;
+}
+/* --- Fim Dark Mode --- */ 
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 150px;
-    gap: 8em;
 }
 
 main .describe #text {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -87,15 +142,15 @@ main .describe p {
 }
 
 main .photo {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     border-radius: 0 80px;
 }
 
 main ul {
     display: flex;
     gap: 30px;
-    padding: 60px 0 30px 0;
+    padding: 60px 0 30px 10px;
 }
 
 main ul li {
@@ -122,6 +177,10 @@ main .btn-describe .btn-download {
     color: var(--dark-40);
 }
 
+#about-me p {
+    text-align: center;
+}
+
 #about-me .contacts {
     display: flex;
     justify-content: space-evenly;
@@ -132,7 +191,7 @@ main .btn-describe .btn-download {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid var(--dark-40);
+    border: 2px solid transparent;
     align-items: center;
     padding: 45px 15px;
 }
