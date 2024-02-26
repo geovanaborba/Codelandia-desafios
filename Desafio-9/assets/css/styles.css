@@ -92,10 +92,10 @@ nav button.theme:hover {
 }
 
 .dark header {
-        /* From https://css.glass */
-        border: none;
-        background: rgba(24, 23, 23, 0.514);
-        color: var(--dark-40);
+    /* From https://css.glass */
+    border: none;
+    background: rgba(24, 23, 23, 0.514);
+    color: var(--dark-40);
 }
 
 .dark nav ul li {
@@ -108,7 +108,7 @@ nav button.theme:hover {
     filter: invert(70%);
 }
 
-.dark #text, 
+.dark #text,
 .dark #about-studies .black-ct,
 .dark .black {
     color: var(--dark-40);
@@ -116,18 +116,18 @@ nav button.theme:hover {
 
 .dark .certificate img {
     background-color: var(--dark-40);
-    opacity: .7;
+    opacity: .8;
     border-radius: 20px;
 }
 
 .dark .project {
     border: .1px solid #353535;
 }
-/* --- Fim Dark Mode --- */ 
+/* --- Fim Dark Mode --- */
 
 main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 150px;
 }
@@ -225,7 +225,7 @@ main .btn-describe .btn-download {
     cursor: pointer;
 }
 
-#about-me .contacts .contacts-container:hover > i {
+#about-me .contacts .contacts-container:hover>i {
     background-color: #f91486;
 }
 
