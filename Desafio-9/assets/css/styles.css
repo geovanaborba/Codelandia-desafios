@@ -15,7 +15,7 @@ h2.red {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #F75C4E;
+    color: var(--red);
     text-align: center;
 }
 
@@ -87,7 +87,8 @@ nav button.theme:hover {
 
 /* --- Dark Mode --- */
 .dark {
-    background-color: var(--dark-10);
+    background: rgb(23,23,23);
+    background: linear-gradient(180deg, rgba(23,23,23,1) 95%, rgb(109, 197, 231) 100%);
     color: var(--dark-30);
 }
 
@@ -369,7 +370,7 @@ main .btn-describe {
 }
 
 #about-me .contacts .contacts-container:hover>i {
-    background-color: #f91486;
+    background-color: var(--pink);
 }
 
 #about-studies .about-pt1,
