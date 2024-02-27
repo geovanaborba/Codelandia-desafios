@@ -5,6 +5,7 @@
     --dark-40: #F9F9F9;
 
     --blue: #1F7CFF;
+    --dark-blue: #0c5fd4;
     --gray: #575455;
     --pink: #f91486;
     --red: #F75C4E;
@@ -39,10 +40,20 @@ section {
 }
 
 body {
-    margin: 0 15%;
     color: var(--gray);
     font-family: 'Poppins', sans-serif;
     background-color: var(--dark-40);
+}
+
+header,
+main,
+#about-me,
+#about-studies,
+#projects,
+#services, 
+#skills, 
+#form {
+    margin: 0 15%;
 }
 
 header {
@@ -87,8 +98,8 @@ nav button.theme:hover {
 
 /* --- Dark Mode --- */
 .dark {
-    background: rgb(23,23,23);
-    background: linear-gradient(180deg, rgba(23,23,23,1) 95%, rgb(109, 197, 231) 100%);
+    background: rgb(23, 23, 23);
+    background: linear-gradient(180deg, rgba(23, 23, 23, 1) 95%, rgb(109, 197, 231) 100%);
     color: var(--dark-30);
 }
 
@@ -113,6 +124,32 @@ nav button.theme:hover {
 .dark #about-studies .black-ct,
 .dark .black {
     color: var(--dark-40);
+}
+
+.dark .btn-download:before,
+.dark .btn-download:after {
+    box-shadow:
+    -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
+    -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.dark .btn-download span:before,
+.dark .btn-download span:after {
+    box-shadow:
+        -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
+        -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
+        7px 7px 20px 0px rgba(0, 0, 0, .2),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.dark .open .title:hover {
+    box-shadow:
+        -7px -7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        -4px -4px 5px 0px rgba(26, 79, 255, 0.9),
+        7px 7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        4px 4px 5px 0px rgba(26, 79, 255, 0.9);
 }
 
 .dark .certificate img {
@@ -187,7 +224,7 @@ main .btn-describe {
 }
 
 .btn-download {
-    background: var(--pink);
+    background: var(--red);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -206,12 +243,7 @@ main .btn-describe {
     content: "";
     right: 0;
     bottom: 0;
-    background: var(--pink);
-    box-shadow:
-        -7px -7px 20px 0px rgba(255, 255, 255, .9),
-        -4px -4px 5px 0px rgba(255, 255, 255, .9),
-        7px 7px 20px 0px rgba(0, 0, 0, .2),
-        4px 4px 5px 0px rgba(0, 0, 0, .3);
+    background: var(--red);
     transition: all 0.3s ease;
 }
 
@@ -226,7 +258,7 @@ main .btn-describe {
 }
 
 .btn-download:hover {
-    color: var(--pink);
+    color: var(--red);
     background: transparent;
 }
 
@@ -244,12 +276,7 @@ main .btn-describe {
     content: "";
     left: 0;
     top: 0;
-    background: var(--pink);
-    box-shadow:
-        -7px -7px 20px 0px rgba(255, 255, 255, .9),
-        -4px -4px 5px 0px rgba(255, 255, 255, .9),
-        7px 7px 20px 0px rgba(0, 0, 0, .2),
-        4px 4px 5px 0px rgba(0, 0, 0, .3);
+    background: var(--red);
     transition: all 0.3s ease;
 }
 
@@ -275,7 +302,7 @@ main .btn-describe {
     width: 160px;
     height: 40px;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: var(--dark-40);
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -287,7 +314,7 @@ main .btn-describe {
 }
 
 .btn-contact {
-    background-color: transparent;
+    background-color: var(--dark-40);
     border: 1px solid #ddd;
     z-index: 10;
 }
@@ -364,13 +391,13 @@ main .btn-describe {
 }
 
 #about-me .contacts .contacts-container:hover {
-    border: 2px solid var(--dark-30);
+    border: 2px solid var(--red);
     border-radius: 40px;
     cursor: pointer;
 }
 
 #about-me .contacts .contacts-container:hover>i {
-    background-color: var(--pink);
+    background-color: var(--red);
 }
 
 #about-studies .about-pt1,
@@ -412,7 +439,7 @@ main .btn-describe {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #F75C4E;
+    color: var(--red);
     margin-bottom: 50px;
 }
 
@@ -465,6 +492,7 @@ main .btn-describe {
     background-color: var(--blue);
     color: var(--dark-40);
     border-radius: 40px;
+    border: 2px solid transparent;
     cursor: pointer;
     display: block;
     padding: 10px 10em;
@@ -473,7 +501,10 @@ main .btn-describe {
 }
 
 .open .title:hover {
-    background-color: var(--pink);
+    background-color: transparent;
+    border: 2px solid var(--dark-blue);
+    color: var(--blue);
+    outline: none;
 }
 
 .open i {
@@ -592,7 +623,7 @@ main .btn-describe {
 }
 
 .btn-project i:hover {
-    color: var(--pink);
+    color: var(--red);
 }
 
 #projects .project span {
@@ -618,7 +649,7 @@ main .btn-describe {
     content: attr(data-tooltip);
     width: 120px;
     background-color: transparent;
-    border: .5px solid var(--dark-30);
+    border: .5px solid var(--blue);
     border-radius: 15px;
     color: var(--blue);
     font-size: 14px;
@@ -642,7 +673,7 @@ main .btn-describe {
     flex-direction: column;
     justify-content: flex-end;
     padding: 25px;
-    background-color: #1F7CFF;
+    background-color: var(--blue);
 }
 
 #skills .skills-container {
@@ -653,9 +684,97 @@ main .btn-describe {
 
 #skills .skills-container i {
     font-size: 80px;
-    color: var(--pink);
+    color: var(--red);
     padding: 40px;
     background-color: var(--dark-30);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+label[for='email'] {
+    margin-top: 20px;
+}
+
+input {
+    padding: 15px 10px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+form .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnSubmit {
+    width: 200px;
+    height: 50px;
+    margin: 30px 0;
+    color: var(--dark-40);
+    background-color: var(--blue);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btnSubmit:hover {
+    background-color: var(--dark-blue);
+    transition: ease .6s;
+}
+
+form p {
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+form .message i {
+    background-color: var(--dark-blue);
+    color: var(--dark-40);
+    font-size: 32px;
+    border-radius: 50px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--blue);
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+    padding: 8em 0 20px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    color: var(--dark-40);
 }
 
 /* BOTÃO VOLTAR AO TOPO */
