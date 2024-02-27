@@ -512,12 +512,34 @@ main .btn-describe {
     padding-top: 40px;
 }
 
+#projects .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects button.customPrevBtn,
+#projects button.customNextBtn {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    color: var(--red);
+    cursor: pointer;
+}
+
+#projects button.customPrevBtn {
+    margin-right: 10px;
+}
+
 #projects .projects-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
     flex-wrap: wrap;
+    padding: 10px;
+    height: 680px;
 }
 
 #projects .project {
@@ -590,15 +612,17 @@ main .btn-describe {
 [data-tooltip]:after {
     display: none;
     position: absolute;
-    padding: 5px;
-    bottom: calc(100% + 10px);
+    padding: 2px;
+    top: calc(100%);
+    right: 50%;
     content: attr(data-tooltip);
-    width: 150px;
-    background-color: #ddd;
+    width: 120px;
+    background-color: transparent;
+    border: .5px solid var(--dark-30);
     border-radius: 15px;
     color: var(--blue);
+    font-size: 14px;
     text-align: center;
-    z-index: 15;
 }
 
 [data-tooltip]:hover:after {
