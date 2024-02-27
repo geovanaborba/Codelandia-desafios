@@ -1,0 +1,64 @@
+.dark {
+    background: rgb(23, 23, 23);
+    background: linear-gradient(180deg, rgba(23, 23, 23, 1) 95%, rgb(109, 197, 231) 100%);
+    color: var(--dark-30);
+}
+
+.dark header {
+    /* From https://css.glass */
+    border: none;
+    background: rgba(24, 23, 23, 0.514);
+    color: var(--dark-40);
+}
+
+.dark nav ul li {
+    color: var(--dark-40);
+}
+
+.dark nav button.theme {
+    background: url('../img/brilho-do-sol.png') no-repeat center;
+    background-size: 18px;
+    filter: invert(70%);
+}
+
+.dark #text,
+.dark #about-studies .black-ct,
+.dark .black {
+    color: var(--dark-40);
+}
+
+.dark .btn-download:before,
+.dark .btn-download:after {
+    box-shadow:
+    -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
+    -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.dark .btn-download span:before,
+.dark .btn-download span:after {
+    box-shadow:
+        -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
+        -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
+        7px 7px 20px 0px rgba(0, 0, 0, .2),
+        4px 4px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.dark .open .title:hover {
+    box-shadow:
+        -7px -7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        -4px -4px 5px 0px rgba(26, 79, 255, 0.9),
+        7px 7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        4px 4px 5px 0px rgba(26, 79, 255, 0.9);
+}
+
+.dark .certificate img {
+    background-color: var(--dark-40);
+    opacity: .8;
+    border-radius: 20px;
+}
+
+.dark .project {
+    border: .1px solid #353535;
+}
