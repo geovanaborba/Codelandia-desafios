@@ -424,9 +424,9 @@ main .btn-describe {
 }
 
 .open .title:hover {
-    background-color: transparent;
+    background-color: var(--dark-blue);
     border: 2px solid var(--dark-blue);
-    color: var(--blue);
+    transition: all 0.3s ease;
     outline: none;
 }
 

@@ -22,8 +22,8 @@
 }
 
 .dark #text,
-.dark #about-studies .black-ct,
-.dark .black {
+.dark #about-studies .title-ct,
+.dark .title {
     color: var(--dark-40);
 }
 
@@ -45,16 +45,27 @@
         4px 4px 5px 0px rgba(0, 0, 0, .3);
 }
 
-.dark .open .title:hover {
+.dark #about-me .contacts .contacts-container:hover {
     box-shadow:
-        -7px -7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        -2px -2px 5dvh 0px rgba(255, 26, 26, 0.9),
+        -2px -2px 4px 0px rgba(255, 26, 26, 0.9),
+        2px 2px 5dvh 0px rgba(0, 0, 0, .2),
+        2px 2px 4px 0px rgba(0, 0, 0, .3);
+}
+
+.dark .open .title:hover {
+    background-color: transparent;
+    border: 2px solid var(dark-blue);
+    box-shadow:
+        -2px -2px 5dvh 0px rgba(26, 79, 255, 0.9),
         -4px -4px 5px 0px rgba(26, 79, 255, 0.9),
-        7px 7px 5dvh 0px rgba(26, 79, 255, 0.9),
+        2px 2px 5dvh 0px rgba(26, 79, 255, 0.9),
         4px 4px 5px 0px rgba(26, 79, 255, 0.9);
 }
 
 .dark .certificate img {
     background-color: var(--dark-40);
+    padding: 20px;
     opacity: .8;
     border-radius: 20px;
 }
