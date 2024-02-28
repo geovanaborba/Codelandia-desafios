@@ -21,14 +21,31 @@
     filter: invert(70%);
 }
 
+.dark nav button.theme:hover {
+    background-color: #ddd;
+}
+
 .dark #text,
 .dark #about-studies .title-ct,
 .dark .title {
     color: var(--dark-40);
 }
 
+.dark .title-min,
+.dark #about-studies .title-min-ct {
+    color: var(--red);
+}
+
+.dark .btn-download {
+    background: var(--red);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+
 .dark .btn-download:before,
 .dark .btn-download:after {
+    background: var(--red);
     box-shadow:
     -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
     -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
@@ -36,21 +53,34 @@
     4px 4px 5px 0px rgba(0, 0, 0, .3);
 }
 
+.dark .btn-download:hover {
+    color: var(--red);
+    background: transparent;
+}
+
 .dark .btn-download span:before,
 .dark .btn-download span:after {
+    background: var(--red);
     box-shadow:
-        -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
-        -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
-        7px 7px 20px 0px rgba(0, 0, 0, .2),
-        4px 4px 5px 0px rgba(0, 0, 0, .3);
+    -7px -7px 20px 0px rgba(255, 26, 26, 0.9),
+    -4px -4px 5px 0px rgba(255, 26, 26, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
 }
 
 .dark #about-me .contacts .contacts-container:hover {
+    border: 2px solid var(--red);
+    color: var(--dark-40);
     box-shadow:
         -2px -2px 5dvh 0px rgba(255, 26, 26, 0.9),
         -2px -2px 4px 0px rgba(255, 26, 26, 0.9),
         2px 2px 5dvh 0px rgba(0, 0, 0, .2),
         2px 2px 4px 0px rgba(0, 0, 0, .3);
+}
+
+.dark #about-me .contacts .contacts-container:hover>i {
+    background-color: var(--red);
+    color: #000;
 }
 
 .dark .open .title:hover {
@@ -72,4 +102,34 @@
 
 .dark .project {
     border: .1px solid #353535;
+}
+
+/* .dark .project .projects-title {
+    color: var(--red);
+} */
+
+.dark .project:hover {
+    border: .1px solid #ddd;
+    color: #ddd;
+}
+
+.dark #projects .project:hover>.btn-project i {
+    color: var(--red);
+}
+
+.dark #projects button.customPrevBtn,
+.dark #projects button.customNextBtn {
+    color: var(--red);
+}
+
+.dark .btn-project i:hover {
+    color: var(--red);
+}
+
+.dark #skills .skills-container i {
+    color: #b82020;
+}
+
+.dark form .message i:hover {
+    background-color: var(--red);
 }

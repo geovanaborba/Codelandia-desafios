@@ -16,7 +16,7 @@ h2.title-min {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: var(--red);
+    color: var(--pink);
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ main .btn-describe {
 }
 
 .btn-download {
-    background: var(--red);
+    background: var(--pink);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -172,7 +172,7 @@ main .btn-describe {
     content: "";
     right: 0;
     bottom: 0;
-    background: var(--red);
+    background: var(--pink);
     transition: all 0.3s ease;
 }
 
@@ -187,7 +187,7 @@ main .btn-describe {
 }
 
 .btn-download:hover {
-    color: var(--red);
+    color: var(--pink);
     background: transparent;
 }
 
@@ -205,7 +205,7 @@ main .btn-describe {
     content: "";
     left: 0;
     top: 0;
-    background: var(--red);
+    background: var(--pink);
     transition: all 0.3s ease;
 }
 
@@ -316,13 +316,13 @@ main .btn-describe {
 }
 
 #about-me .contacts .contacts-container:hover {
-    border: 2px solid var(--red);
+    border: 2px solid var(--dark-30);
     border-radius: 40px;
     cursor: pointer;
 }
 
 #about-me .contacts .contacts-container:hover>i {
-    background-color: var(--red);
+    background-color: var(--pink);
 }
 
 #about-studies .about-pt1,
@@ -364,7 +364,7 @@ main .btn-describe {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: var(--red);
+    color: var(--pink);
     margin-bottom: 50px;
 }
 
@@ -481,7 +481,7 @@ main .btn-describe {
     border: none;
     outline: none;
     font-size: 40px;
-    color: var(--red);
+    color: var(--pink);
     cursor: pointer;
 }
 
@@ -506,8 +506,12 @@ main .btn-describe {
     position: relative;
 }
 
+#projects .project:hover {
+    cursor: pointer;
+}
+
 #projects .project img {
-    width: 400px;
+    width: 398px;
     height: 205px;
     border-radius: 10px 10px 0 0;
 }
@@ -516,7 +520,7 @@ main .btn-describe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5px 15px;
+    margin: 15px;
 }
 
 #projects .project .describe-project {
@@ -548,7 +552,7 @@ main .btn-describe {
 }
 
 .btn-project i:hover {
-    color: var(--red);
+    color: var(--pink);
 }
 
 #projects .project span {
@@ -612,7 +616,7 @@ main .btn-describe {
 
 #skills .skills-container i {
     font-size: 60px;
-    color: var(--red);
+    color: var(--pink);
     padding: 30px;
     border: 2px solid var(--dark-30);
     border-radius: 20px;
