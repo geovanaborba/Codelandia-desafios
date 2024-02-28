@@ -271,13 +271,15 @@ main .btn-describe {
     top: 2px;
 }
 
-#about-me p {
+#about-me .about-describe p {
     text-align: center;
+    margin: 0 10%;
 }
 
 #about-me .contacts {
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
     margin-top: 50px;
 }
 
@@ -713,8 +715,12 @@ form p {
     font-size: 18px;
 }
 
+form .message div {
+    display: flex;
+    gap: 40px;
+}
+
 form .message i {
-    background-color: var(--dark-blue);
     color: var(--dark-40);
     font-size: 32px;
     border-radius: 50px;
@@ -723,8 +729,24 @@ form .message i {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
+    margin: 30px 0 80px 0;
     cursor: pointer;
+}
+
+form .message i:hover {
+    background-color: var(--pink);
+}
+
+form .message .linkedin {
+    background-color: #0e76a8;
+}
+
+form .message .telegram {
+    background-color: #229ED9;
+}
+
+form .message .wpp {
+    background-color: #25D366;
 }
 
 footer {
