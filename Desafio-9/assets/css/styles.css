@@ -82,6 +82,10 @@ nav ul {
     align-items: center;
 }
 
+nav li:hover {
+    color: var(--blue);
+}
+
 nav button.theme {
     padding: 15px;
     border: 1px solid var(--dark-30);
@@ -107,6 +111,10 @@ main {
 main .describe #text {
     font-size: 45px;
     font-weight: 700;
+}
+
+main .describe li {
+    font-size: 16px;
 }
 
 main .describe p {
