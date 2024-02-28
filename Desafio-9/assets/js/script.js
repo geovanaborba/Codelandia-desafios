@@ -33,3 +33,8 @@ elementsOpen.forEach(function (open) {
 function darkMode() {
   document.body.classList.toggle('dark');
 };
+
+/* -- Download CV -- */
+const cvBtn = document.querySelector('.cv');
+const cvLink = './assets/img/cv.pdf';
+cvBtn.setAttribute("href", cvLink);
