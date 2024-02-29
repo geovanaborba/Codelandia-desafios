@@ -519,6 +519,11 @@ main .btn-describe {
     cursor: pointer;
 }
 
+#projects .project:hover>.btn-project i {
+    color: var(--pink);
+    transform: scale(1.1);
+}
+
 #projects .project img {
     width: 398px;
     height: 205px;
@@ -825,6 +830,7 @@ footer .thanks {
 footer .thanks i {
     padding-left: 10px;
 }
+
 /* BOTÃO VOLTAR AO TOPO */
 #back-to-top {
     position: fixed;
