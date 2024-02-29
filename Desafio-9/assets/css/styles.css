@@ -841,6 +841,7 @@ footer .thanks i {
     background-color: rgb(216, 216, 216);
     border: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    display: none; /*Aparecerá por JS quando descer a página*/
 }
 
 #back-to-top:hover {

@@ -11,12 +11,24 @@ function frameLooper() {
     clearTimeout(timer);
   }
   loopTimer = setTimeout('frameLooper()', 120);
-
-}
+};
 frameLooper();
 
 /* -- Botão Voltar ao Topo -- */
 var btn = document.querySelector('#back-to-top');
+// função para aparecer apenas após rolar a página
+window.onscroll = function () {
+  scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
+  };
+};
+// volta para posição 0
 btn.addEventListener('click', function () {
   window.scrollTo(0, 0);
 });
