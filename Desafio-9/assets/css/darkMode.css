@@ -122,20 +122,20 @@
     border-radius: 20px;
 }
 
-.dark .project {
+.dark #projects .project {
     border: .1px solid #353535;
 }
 
-/* .dark .project .projects-title {
-    color: var(--red);
-} */
-
-.dark .project:hover {
+.dark #projects .project:hover {
     border-bottom: 4px solid var(--red);
     color: #ddd;
 }
 
 .dark #projects .project:hover>.btn-project i {
+    color: #ddd;
+}
+
+.dark #projects .project .btn-project i:hover {
     color: var(--red);
 }
 
@@ -189,4 +189,13 @@
 
 .dark #back-to-top:hover {
     background-color: var(--red);
+}
+
+.dark [data-tooltip]:hover {
+    color: var(--red);
+}
+
+.dark [data-tooltip]:after {
+    color: var(--red);
+    border: .5px solid var(--red);
 }

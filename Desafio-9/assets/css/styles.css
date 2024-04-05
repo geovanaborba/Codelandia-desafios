@@ -495,7 +495,7 @@ main .btn-describe {
 }
 
 #projects button.customPrevBtn {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #projects .projects-container {
@@ -511,20 +511,26 @@ main .btn-describe {
     width: 400px;
     height: 580px;
     border-radius: 10px;
-    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
     position: relative;
 }
 
 #projects .project:hover {
     cursor: pointer;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+#projects .project:hover>img {
+    filter: none;
 }
 
 #projects .project:hover>.btn-project i {
-    color: var(--pink);
+    /* color: var(--pink); */
     transform: scale(1.1);
 }
 
 #projects .project img {
+    filter: grayscale(1);
     width: 398px;
     height: 205px;
     border-radius: 10px 10px 0 0;
@@ -588,7 +594,7 @@ main .btn-describe {
     position: absolute;
     padding: 2px;
     top: calc(100% + 3px);
-    right: 45%;
+    right: 0;
     content: attr(data-tooltip);
     width: 120px;
     background-color: transparent;
@@ -641,11 +647,16 @@ main .btn-describe {
 
 #skills .skills-container i {
     font-size: 60px;
+    width: 120px;
+    height: 120px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     color: var(--purple);
-    padding: 30px;
     border: 1px solid var(--dark-30);
     border-radius: 20px;
     cursor: pointer;
+    margin: 20px 0;
 }
 
 .rotate-vert-center:hover {
