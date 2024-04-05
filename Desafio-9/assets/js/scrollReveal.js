@@ -1,7 +1,7 @@
 // left 
 const left = ScrollReveal({
     origin: 'left',
-    distance: '880px',
+    distance: '250px',
     duration: 2000,
     reset: true,
     delay: 200 
@@ -9,6 +9,8 @@ const left = ScrollReveal({
 ScrollReveal().reveal('.describe p');
 ScrollReveal().reveal('.describe ul');
 ScrollReveal().reveal('.btn-describe');
+ScrollReveal().reveal('.img-pt1');
+ScrollReveal().reveal('.img-pt2', {origin: 'right'});
 
 // right (feito com a classe diretamente, pois só usei uma)
 ScrollReveal().reveal('.photo', {
