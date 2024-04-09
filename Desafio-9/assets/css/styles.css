@@ -101,6 +101,10 @@ nav button.theme:hover {
     background-color: #ddd;
 }
 
+nav #btn-mobile {
+    display: none;
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -288,8 +292,9 @@ main .btn-describe {
 #about-me .contacts {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: baseline;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #about-me .contacts .contacts-container {
@@ -298,7 +303,10 @@ main .btn-describe {
     justify-content: center;
     border: 2px solid transparent;
     align-items: center;
+    width: 230px;
+    margin-top: 25px;
     padding: 45px 15px;
+
 }
 
 #about-me .contacts .contacts-container i {

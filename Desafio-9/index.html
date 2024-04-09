@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/darkMode.css">
     <link rel="stylesheet" href="./assets/css/scrollbar.css">
-    <link rel="stylesheet" href="./assets/css/btnContact.scss">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <!--owl css-->
     <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css">
@@ -31,28 +31,31 @@
 <body>
     <header>
         <h1>Portfólio</h1>
-        <nav>
-            <ul>
-                <a href="#about-me">
-                    <li>Sobre mim</li>
-                </a>
-                <a href="#about-studies">
-                    <li>Estudos</li>
-                </a>
-                <a href="#projects">
-                    <li>Projetos</li>
-                </a>
-                <a href="#services">
-                    <li>Serviços</li>
-                </a>
-                <a href="#skills">
-                    <li>Skills</li>
-                </a>
-                <a href="#form">
-                    <li>Contato</li>
-                </a>
-                <li><button class="theme" onclick="darkMode()" id="btn-light"></button></li>
-            </ul>
+        <nav id="hamburguer">
+            <button id="btn-mobile">Menu <i class="fa-solid fa-bars"></i></button>
+            <nav>
+                <ul>
+                    <a href="#about-me">
+                        <li>Sobre mim</li>
+                    </a>
+                    <a href="#about-studies">
+                        <li>Estudos</li>
+                    </a>
+                    <a href="#projects">
+                        <li>Projetos</li>
+                    </a>
+                    <a href="#services">
+                        <li>Serviços</li>
+                    </a>
+                    <a href="#skills">
+                        <li>Skills</li>
+                    </a>
+                    <a href="#form">
+                        <li>Contato</li>
+                    </a>
+                    <li><button class="theme" onclick="darkMode()" id="btn-light"></button></li>
+                </ul>
+            </nav>
         </nav>
     </header>
 
@@ -131,8 +134,9 @@
         <div class="about-pt1">
             <img class="img-pt1" src="./assets/img/undraw_programmer_re_owql.svg" alt="">
             <div>
-                <p>Conheci melhor o mundo da programação durante a pandemia, quando encontrei por acaso um anúncio de uma imersão
-                        Dev
+                <p>Conheci melhor o mundo da programação durante a pandemia, quando encontrei por acaso um anúncio de
+                    uma imersão
+                    Dev
                     que seria feita pela Alura e desde então tenho estudado por conta e participado de
                     outros eventos.
                 </p>
@@ -140,10 +144,11 @@
                     completei o bootcamp Web Carrefour pela Digital Innovation One (Dio) e em
                     junho de 2023
                     me formei no curso técnico
-                        de Desenvolvimento de Sistemas da Etec.</p>
-                        <p>Atualmente estou finalizando o curso Full
-                            Stack
-                            JavaScript da escola One Bit Code e iniciarei logo em seguida, a Formação em Tecnologia da escola DNC.</p>
+                    de Desenvolvimento de Sistemas da Etec.</p>
+                <p>Atualmente estou finalizando o curso Full
+                    Stack
+                    JavaScript da escola One Bit Code e iniciarei logo em seguida, a Formação em Tecnologia da escola
+                    DNC.</p>
             </div>
         </div>
         <div class="about-pt2">
@@ -203,7 +208,7 @@
                 <li>2024 - Formação em Tecnologia
                     <p>Escola DNC</p>
                 </li>
-                
+
                 <li>
                     2023 - Full Stack JavaScript
                     <p>One Bit Code</p>
@@ -472,9 +477,9 @@
         <h1 class="title">Contato</h1>
         <form action="https://formsubmit.co/geovana.borba@gmail.com" method="post">
             <label for="name">Nome</label>
-            <input type="text" name="name" placeholder="Nome Completo" required>
+            <input type="text" name="name" id="name" placeholder="Nome Completo" required>
             <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder="email@email.com">
+            <input type="email" name="email" id="email" placeholder="email@email.com">
             <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Deixe sua mensagem..."></textarea>
             <div class="message">
                 <button type="submit" class="btnSubmit submit-effect">Enviar mensagem</button>
